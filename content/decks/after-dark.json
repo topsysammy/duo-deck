@@ -8,7 +8,7 @@
   "mode": "qa",
   "is_spicy": true,
   "locale": "en",
-  "version": 4,
+  "version": 5,
   "levels": [
     {
       "id": 1,
@@ -567,11 +567,11 @@
       "version": 1
     },
     {
-      "id": "after-dark-301",
+      "id": "after-dark-321",
       "deck_id": "after-dark",
       "level": 3,
       "type": "question",
-      "text": "What's the wildest sexual thought you've ever had?",
+      "text": "What was the first thing about me that turned you on?",
       "option_a": null,
       "option_b": null,
       "tags": [],
@@ -580,11 +580,11 @@
       "version": 1
     },
     {
-      "id": "after-dark-302",
+      "id": "after-dark-322",
       "deck_id": "after-dark",
       "level": 3,
       "type": "question",
-      "text": "Have you ever had sex with someone you weren't in a relationship with?",
+      "text": "What turns you on about me the most?",
       "option_a": null,
       "option_b": null,
       "tags": [],
@@ -593,11 +593,11 @@
       "version": 1
     },
     {
-      "id": "after-dark-303",
+      "id": "after-dark-323",
       "deck_id": "after-dark",
       "level": 3,
       "type": "question",
-      "text": "What's your biggest sexual fantasy?",
+      "text": "Does naughty talk get you aroused?",
       "option_a": null,
       "option_b": null,
       "tags": [],
@@ -606,11 +606,11 @@
       "version": 1
     },
     {
-      "id": "after-dark-304",
+      "id": "after-dark-324",
       "deck_id": "after-dark",
       "level": 3,
       "type": "question",
-      "text": "Have you ever watched porn with a partner?",
+      "text": "Have you ever gotten wet or hard just from chatting with me?",
       "option_a": null,
       "option_b": null,
       "tags": [],
@@ -619,11 +619,11 @@
       "version": 1
     },
     {
-      "id": "after-dark-305",
+      "id": "after-dark-325",
       "deck_id": "after-dark",
       "level": 3,
       "type": "question",
-      "text": "What's the most daring place you've ever kissed someone?",
+      "text": "What's one thing I do that instantly puts you in the mood?",
       "option_a": null,
       "option_b": null,
       "tags": [],
@@ -632,11 +632,11 @@
       "version": 1
     },
     {
-      "id": "after-dark-306",
+      "id": "after-dark-326",
       "deck_id": "after-dark",
       "level": 3,
       "type": "question",
-      "text": "Have you ever sent a nude picture?",
+      "text": "What's your favourite sex position with me?",
       "option_a": null,
       "option_b": null,
       "tags": [],
@@ -645,11 +645,11 @@
       "version": 1
     },
     {
-      "id": "after-dark-307",
+      "id": "after-dark-327",
       "deck_id": "after-dark",
       "level": 3,
       "type": "question",
-      "text": "What's something you've always wanted to try in the bedroom?",
+      "text": "Have you ever wanted me to take complete control in bed?",
       "option_a": null,
       "option_b": null,
       "tags": [],
@@ -658,11 +658,11 @@
       "version": 1
     },
     {
-      "id": "after-dark-308",
+      "id": "after-dark-328",
       "deck_id": "after-dark",
       "level": 3,
       "type": "question",
-      "text": "Have you ever been intimate with someone you knew you shouldn't be?",
+      "text": "What's the wildest thing you've imagined us doing together?",
       "option_a": null,
       "option_b": null,
       "tags": [],
@@ -671,11 +671,11 @@
       "version": 1
     },
     {
-      "id": "after-dark-309",
+      "id": "after-dark-329",
       "deck_id": "after-dark",
       "level": 3,
       "type": "question",
-      "text": "Do you prefer being dominant or submissive?",
+      "text": "What's the longest you've ever wanted us to go?",
       "option_a": null,
       "option_b": null,
       "tags": [],
@@ -684,11 +684,11 @@
       "version": 1
     },
     {
-      "id": "after-dark-310",
+      "id": "after-dark-330",
       "deck_id": "after-dark",
       "level": 3,
       "type": "question",
-      "text": "What's the longest you've ever been intimate with someone?",
+      "text": "What's something you've wanted to try in bed but haven't told me?",
       "option_a": null,
       "option_b": null,
       "tags": [],
@@ -697,11 +697,11 @@
       "version": 1
     },
     {
-      "id": "after-dark-311",
+      "id": "after-dark-331",
       "deck_id": "after-dark",
       "level": 3,
       "type": "question",
-      "text": "Have you ever had a friends-with-benefits situation?",
+      "text": "What's your wildest sexual fantasy involving me?",
       "option_a": null,
       "option_b": null,
       "tags": [],
@@ -710,11 +710,11 @@
       "version": 1
     },
     {
-      "id": "after-dark-312",
+      "id": "after-dark-332",
       "deck_id": "after-dark",
       "level": 3,
       "type": "question",
-      "text": "What's one thing that can instantly turn you on?",
+      "text": "If you could change one thing about our sex life, what would it be?",
       "option_a": null,
       "option_b": null,
       "tags": [],
@@ -723,11 +723,11 @@
       "version": 1
     },
     {
-      "id": "after-dark-313",
+      "id": "after-dark-333",
       "deck_id": "after-dark",
       "level": 3,
       "type": "question",
-      "text": "Have you ever had a sexual dream about a friend?",
+      "text": "Is there a sexual fantasy you've been too shy to share with me?",
       "option_a": null,
       "option_b": null,
       "tags": [],
@@ -736,26 +736,11 @@
       "version": 1
     },
     {
-      "id": "after-dark-314",
+      "id": "after-dark-334",
       "deck_id": "after-dark",
       "level": 3,
       "type": "question",
-      "text": "What's one thing I do that turns you on without even trying?",
-      "option_a": null,
-      "option_b": null,
-      "tags": [
-        "replacement"
-      ],
-      "spice_level": 3,
-      "locale": "en",
-      "version": 2
-    },
-    {
-      "id": "after-dark-315",
-      "deck_id": "after-dark",
-      "level": 3,
-      "type": "question",
-      "text": "What's the most adventurous thing you've done with a partner?",
+      "text": "Would you be interested in experimenting with role-play?",
       "option_a": null,
       "option_b": null,
       "tags": [],
@@ -764,26 +749,11 @@
       "version": 1
     },
     {
-      "id": "after-dark-316",
+      "id": "after-dark-335",
       "deck_id": "after-dark",
       "level": 3,
       "type": "question",
-      "text": "What was the moment you first realised you wanted me?",
-      "option_a": null,
-      "option_b": null,
-      "tags": [
-        "adapted"
-      ],
-      "spice_level": 3,
-      "locale": "en",
-      "version": 1
-    },
-    {
-      "id": "after-dark-317",
-      "deck_id": "after-dark",
-      "level": 3,
-      "type": "question",
-      "text": "What's one intimate thing you've never told anyone?",
+      "text": "What's one thing you've always wanted me to do to you?",
       "option_a": null,
       "option_b": null,
       "tags": [],
@@ -792,11 +762,11 @@
       "version": 1
     },
     {
-      "id": "after-dark-318",
+      "id": "after-dark-336",
       "deck_id": "after-dark",
       "level": 3,
       "type": "question",
-      "text": "Would you be comfortable discussing your deepest fantasies with me?",
+      "text": "Have you ever masturbated while thinking about me?",
       "option_a": null,
       "option_b": null,
       "tags": [],
@@ -805,26 +775,50 @@
       "version": 1
     },
     {
-      "id": "after-dark-319",
+      "id": "after-dark-337",
       "deck_id": "after-dark",
       "level": 3,
       "type": "question",
-      "text": "On our next night alone together, what would you secretly hope happens?",
+      "text": "Have you ever wanted to record us being intimate? Would you be comfortable with it?",
       "option_a": null,
       "option_b": null,
-      "tags": [
-        "adapted"
-      ],
+      "tags": [],
       "spice_level": 3,
       "locale": "en",
       "version": 1
     },
     {
-      "id": "after-dark-320",
+      "id": "after-dark-338",
       "deck_id": "after-dark",
       "level": 3,
       "type": "question",
-      "text": "What's one question about your sex life you'd be nervous to answer honestly?",
+      "text": "Would you be comfortable trying something completely new in bed with me?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [],
+      "spice_level": 3,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "after-dark-339",
+      "deck_id": "after-dark",
+      "level": 3,
+      "type": "question",
+      "text": "If I challenged you to take the lead tonight, what would you do?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [],
+      "spice_level": 3,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "after-dark-340",
+      "deck_id": "after-dark",
+      "level": 3,
+      "type": "question",
+      "text": "If we had an entire night alone with no interruptions, what would you want us to do?",
       "option_a": null,
       "option_b": null,
       "tags": [],
