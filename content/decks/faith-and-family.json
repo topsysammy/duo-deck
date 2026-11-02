@@ -8,7 +8,7 @@
   "mode": "qa",
   "is_spicy": false,
   "locale": "en",
-  "version": 2,
+  "version": 3,
   "levels": [
     {
       "id": 1,
@@ -308,6 +308,156 @@
       "level": 1,
       "type": "question",
       "text": "What does a day of rest look like for us as a family?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "faith-and-family-021",
+      "deck_id": "faith-and-family",
+      "level": 1,
+      "type": "question",
+      "text": "How did your family pray or worship together when you were young?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "faith-and-family-022",
+      "deck_id": "faith-and-family",
+      "level": 1,
+      "type": "question",
+      "text": "What role should faith play when we make big decisions?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "faith-and-family-023",
+      "deck_id": "faith-and-family",
+      "level": 1,
+      "type": "question",
+      "text": "How should we handle it when our families disagree with a choice we make?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "faith-and-family-024",
+      "deck_id": "faith-and-family",
+      "level": 1,
+      "type": "question",
+      "text": "Which family recipe would you love us to keep cooking?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "faith-and-family-025",
+      "deck_id": "faith-and-family",
+      "level": 1,
+      "type": "question",
+      "text": "What does respect look like between us and our in-laws?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "faith-and-family-026",
+      "deck_id": "faith-and-family",
+      "level": 1,
+      "type": "question",
+      "text": "How do you want our home to feel when guests visit?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "faith-and-family-027",
+      "deck_id": "faith-and-family",
+      "level": 1,
+      "type": "question",
+      "text": "What's a value you hold that came from your mother or father?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "faith-and-family-028",
+      "deck_id": "faith-and-family",
+      "level": 1,
+      "type": "question",
+      "text": "How can we make time for faith in a busy week?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "faith-and-family-029",
+      "deck_id": "faith-and-family",
+      "level": 1,
+      "type": "question",
+      "text": "What's one way you'd like us to serve others together?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "faith-and-family-030",
+      "deck_id": "faith-and-family",
+      "level": 1,
+      "type": "question",
+      "text": "What do you want our family story to be, years from now?",
       "option_a": null,
       "option_b": null,
       "tags": [

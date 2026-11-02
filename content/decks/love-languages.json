@@ -8,7 +8,7 @@
   "mode": "qa",
   "is_spicy": false,
   "locale": "en",
-  "version": 2,
+  "version": 3,
   "levels": [
     {
       "id": 1,
@@ -308,6 +308,156 @@
       "level": 1,
       "type": "question",
       "text": "What's a love note you'd love to find in your bag one day?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "love-languages-021",
+      "deck_id": "love-languages",
+      "level": 1,
+      "type": "question",
+      "text": "What's a word or phrase from me that always calms you down?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "love-languages-022",
+      "deck_id": "love-languages",
+      "level": 1,
+      "type": "question",
+      "text": "When I'm busy, what's the easiest way I can still make you feel loved?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "love-languages-023",
+      "deck_id": "love-languages",
+      "level": 1,
+      "type": "question",
+      "text": "Which do you remember longer: what I said or what I did?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "love-languages-024",
+      "deck_id": "love-languages",
+      "level": 1,
+      "type": "question",
+      "text": "What's a gesture from your childhood that still feels like love?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "love-languages-025",
+      "deck_id": "love-languages",
+      "level": 1,
+      "type": "question",
+      "text": "How do you like to be greeted when I get home?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "love-languages-026",
+      "deck_id": "love-languages",
+      "level": 1,
+      "type": "question",
+      "text": "What's something I do for you that you've never thanked me for?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "love-languages-027",
+      "deck_id": "love-languages",
+      "level": 1,
+      "type": "question",
+      "text": "Which way of showing love do you find hardest to give?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "love-languages-028",
+      "deck_id": "love-languages",
+      "level": 1,
+      "type": "question",
+      "text": "What does quality time with me look like in a busy week?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "love-languages-029",
+      "deck_id": "love-languages",
+      "level": 1,
+      "type": "question",
+      "text": "Which kind of touch makes you feel safest?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "love-languages-030",
+      "deck_id": "love-languages",
+      "level": 1,
+      "type": "question",
+      "text": "What's a small gift under five thousand naira that would make you smile?",
       "option_a": null,
       "option_b": null,
       "tags": [

@@ -8,7 +8,7 @@
   "mode": "qa",
   "is_spicy": false,
   "locale": "en",
-  "version": 2,
+  "version": 3,
   "levels": [
     {
       "id": 1,
@@ -308,6 +308,156 @@
       "level": 1,
       "type": "question",
       "text": "If we hosted a dinner for four, who would we invite?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "date-night-in-021",
+      "deck_id": "date-night-in",
+      "level": 1,
+      "type": "activity",
+      "text": "Draw portraits of each other in two minutes, then swap and rate them.",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "date-night-in-022",
+      "deck_id": "date-night-in",
+      "level": 1,
+      "type": "activity",
+      "text": "Pick a country, cook or order a meal from there, and learn three facts about it.",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "date-night-in-023",
+      "deck_id": "date-night-in",
+      "level": 1,
+      "type": "activity",
+      "text": "Write down five things you love about each other, then read them aloud.",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "date-night-in-024",
+      "deck_id": "date-night-in",
+      "level": 1,
+      "type": "activity",
+      "text": "Play twenty questions, but every answer has to be about us.",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "date-night-in-025",
+      "deck_id": "date-night-in",
+      "level": 1,
+      "type": "activity",
+      "text": "Turn off the lights and tell each other a story by torchlight.",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "date-night-in-026",
+      "deck_id": "date-night-in",
+      "level": 1,
+      "type": "activity",
+      "text": "Make a mini vision board together for the year ahead.",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "date-night-in-027",
+      "deck_id": "date-night-in",
+      "level": 1,
+      "type": "activity",
+      "text": "Slow-dance in the living room to three songs your partner picks.",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "date-night-in-028",
+      "deck_id": "date-night-in",
+      "level": 1,
+      "type": "question",
+      "text": "What's a skill you'd love us to learn together at home?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "date-night-in-029",
+      "deck_id": "date-night-in",
+      "level": 1,
+      "type": "question",
+      "text": "What's your favourite way to end a night in?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "date-night-in-030",
+      "deck_id": "date-night-in",
+      "level": 1,
+      "type": "question",
+      "text": "Which meal would you like us to perfect together this year?",
       "option_a": null,
       "option_b": null,
       "tags": [

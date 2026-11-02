@@ -9,7 +9,7 @@
   "accent": "yellow",
   "is_spicy": false,
   "locale": "en",
-  "version": 2,
+  "version": 3,
   "levels": [
     {
       "id": 1,
@@ -309,6 +309,156 @@
       "level": 1,
       "type": "question",
       "text": "What's worth spending more on, and what's worth spending less on?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "money-matters-021",
+      "deck_id": "money-matters",
+      "level": 1,
+      "type": "question",
+      "text": "How do you feel about borrowing money for something big?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "money-matters-022",
+      "deck_id": "money-matters",
+      "level": 1,
+      "type": "question",
+      "text": "What's one thing you'd never cut from the budget?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "money-matters-023",
+      "deck_id": "money-matters",
+      "level": 1,
+      "type": "question",
+      "text": "How should we handle money surprises, like an unexpected bill?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "money-matters-024",
+      "deck_id": "money-matters",
+      "level": 1,
+      "type": "question",
+      "text": "What do you think about investing, and where would you start?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "money-matters-025",
+      "deck_id": "money-matters",
+      "level": 1,
+      "type": "question",
+      "text": "How much family support is too much, and where should we draw the line?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "money-matters-026",
+      "deck_id": "money-matters",
+      "level": 1,
+      "type": "question",
+      "text": "What's a big purchase you'd like us to plan and save for together?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "money-matters-027",
+      "deck_id": "money-matters",
+      "level": 1,
+      "type": "question",
+      "text": "How often should we sit down and talk about money?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "money-matters-028",
+      "deck_id": "money-matters",
+      "level": 1,
+      "type": "question",
+      "text": "What does being generous with money mean to you?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "money-matters-029",
+      "deck_id": "money-matters",
+      "level": 1,
+      "type": "question",
+      "text": "How would we handle it if one of us earned much more than the other?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "money-matters-030",
+      "deck_id": "money-matters",
+      "level": 1,
+      "type": "question",
+      "text": "What's a money lesson you'd want to pass on to the next generation?",
       "option_a": null,
       "option_b": null,
       "tags": [

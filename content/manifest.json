@@ -1,37 +1,37 @@
 {
-  "version": 6,
+  "version": 7,
   "decks": {
     "first-spark": {
-      "version": 2,
-      "card_count": 20
+      "version": 3,
+      "card_count": 30
     },
     "this-or-that": {
-      "version": 2,
-      "card_count": 20
+      "version": 3,
+      "card_count": 30
     },
     "deep-talk": {
-      "version": 2,
-      "card_count": 20
+      "version": 3,
+      "card_count": 30
     },
     "love-languages": {
-      "version": 2,
-      "card_count": 20
+      "version": 3,
+      "card_count": 30
     },
     "money-matters": {
-      "version": 2,
-      "card_count": 20
+      "version": 3,
+      "card_count": 30
     },
     "date-night-in": {
-      "version": 2,
-      "card_count": 20
+      "version": 3,
+      "card_count": 30
     },
     "faith-and-family": {
-      "version": 2,
-      "card_count": 20
+      "version": 3,
+      "card_count": 30
     },
     "long-distance": {
-      "version": 2,
-      "card_count": 20
+      "version": 3,
+      "card_count": 50
     },
     "after-dark": {
       "version": 5,

@@ -8,7 +8,7 @@
   "mode": "would_you_rather",
   "is_spicy": false,
   "locale": "en",
-  "version": 2,
+  "version": 3,
   "levels": [
     {
       "id": 1,
@@ -310,6 +310,156 @@
       "text": "A road trip to Abuja or a weekend in Accra?",
       "option_a": "Road trip to Abuja",
       "option_b": "Weekend in Accra",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "this-or-that-021",
+      "deck_id": "this-or-that",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "A sunrise walk or a sunset drive?",
+      "option_a": "Sunrise walk",
+      "option_b": "Sunset drive",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "this-or-that-022",
+      "deck_id": "this-or-that",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Text all day or one long call at night?",
+      "option_a": "Text all day",
+      "option_b": "One long call",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "this-or-that-023",
+      "deck_id": "this-or-that",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Amala or pounded yam?",
+      "option_a": "Amala",
+      "option_b": "Pounded yam",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "this-or-that-024",
+      "deck_id": "this-or-that",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Plan every detail or figure it out as we go?",
+      "option_a": "Plan every detail",
+      "option_b": "Figure it out",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "this-or-that-025",
+      "deck_id": "this-or-that",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "A night at the cinema or a live show?",
+      "option_a": "Cinema",
+      "option_b": "Live show",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "this-or-that-026",
+      "deck_id": "this-or-that",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Matching outfits or totally different styles?",
+      "option_a": "Matching outfits",
+      "option_b": "Different styles",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "this-or-that-027",
+      "deck_id": "this-or-that",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "The mountains or the sea?",
+      "option_a": "Mountains",
+      "option_b": "The sea",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "this-or-that-028",
+      "deck_id": "this-or-that",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Early morning or late night?",
+      "option_a": "Early morning",
+      "option_b": "Late night",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "this-or-that-029",
+      "deck_id": "this-or-that",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "A house full of plants or a house full of books?",
+      "option_a": "Plants everywhere",
+      "option_b": "Books everywhere",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "this-or-that-030",
+      "deck_id": "this-or-that",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Never use social media again or never watch TV again?",
+      "option_a": "No social media",
+      "option_b": "No TV",
       "tags": [
         "draft"
       ],

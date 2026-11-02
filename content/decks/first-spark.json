@@ -8,7 +8,7 @@
   "mode": "qa",
   "is_spicy": false,
   "locale": "en",
-  "version": 2,
+  "version": 3,
   "levels": [
     {
       "id": 1,
@@ -308,6 +308,156 @@
       "level": 1,
       "type": "question",
       "text": "If you could live inside any movie for a week, which would you pick?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "first-spark-021",
+      "deck_id": "first-spark",
+      "level": 1,
+      "type": "question",
+      "text": "What's the first thing you notice when you walk into a party?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "first-spark-022",
+      "deck_id": "first-spark",
+      "level": 1,
+      "type": "question",
+      "text": "Which snack would you fight me for?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "first-spark-023",
+      "deck_id": "first-spark",
+      "level": 1,
+      "type": "question",
+      "text": "If your life had a narrator, whose voice would it be?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "first-spark-024",
+      "deck_id": "first-spark",
+      "level": 1,
+      "type": "question",
+      "text": "What's the silliest argument you've ever won?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "first-spark-025",
+      "deck_id": "first-spark",
+      "level": 1,
+      "type": "question",
+      "text": "Which of your friends would survive longest in a zombie film?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "first-spark-026",
+      "deck_id": "first-spark",
+      "level": 1,
+      "type": "question",
+      "text": "What's a hobby you tried once and quit fast?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "first-spark-027",
+      "deck_id": "first-spark",
+      "level": 1,
+      "type": "question",
+      "text": "If you had to wear one outfit forever, what would it be?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "first-spark-028",
+      "deck_id": "first-spark",
+      "level": 1,
+      "type": "question",
+      "text": "What's your go-to karaoke song?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "first-spark-029",
+      "deck_id": "first-spark",
+      "level": 1,
+      "type": "question",
+      "text": "Which app would be the last one you'd delete from your phone?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "first-spark-030",
+      "deck_id": "first-spark",
+      "level": 1,
+      "type": "question",
+      "text": "What's the best advice you've ever ignored?",
       "option_a": null,
       "option_b": null,
       "tags": [
