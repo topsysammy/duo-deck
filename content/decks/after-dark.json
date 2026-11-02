@@ -8,7 +8,7 @@
   "mode": "qa",
   "is_spicy": true,
   "locale": "en",
-  "version": 3,
+  "version": 4,
   "levels": [
     {
       "id": 1,
@@ -498,26 +498,30 @@
       "deck_id": "after-dark",
       "level": 2,
       "type": "question",
-      "text": "What's something you've always wanted to try with a partner?",
+      "text": "What's a kiss from me you still think about?",
       "option_a": null,
       "option_b": null,
-      "tags": [],
+      "tags": [
+        "replacement"
+      ],
       "spice_level": 2,
       "locale": "en",
-      "version": 1
+      "version": 2
     },
     {
       "id": "after-dark-217",
       "deck_id": "after-dark",
       "level": 2,
       "type": "question",
-      "text": "Have you ever been tempted to send someone a naughty picture?",
+      "text": "What's the flirtiest thing I could text you in the middle of the day?",
       "option_a": null,
       "option_b": null,
-      "tags": [],
+      "tags": [
+        "replacement"
+      ],
       "spice_level": 2,
       "locale": "en",
-      "version": 1
+      "version": 2
     },
     {
       "id": "after-dark-218",
@@ -736,13 +740,15 @@
       "deck_id": "after-dark",
       "level": 3,
       "type": "question",
-      "text": "Would you ever have a friends-with-benefits arrangement?",
+      "text": "What's one thing I do that turns you on without even trying?",
       "option_a": null,
       "option_b": null,
-      "tags": [],
+      "tags": [
+        "replacement"
+      ],
       "spice_level": 3,
       "locale": "en",
-      "version": 1
+      "version": 2
     },
     {
       "id": "after-dark-315",
