@@ -29,7 +29,10 @@ export type DeckMode = "qa" | "would_you_rather";
 export interface Level {
   id: number;
   name: string;
+  /** Short subtitle shown after the card count, e.g. "flirty warm-up". */
   blurb: string;
+  /** Optional one-line intro shown under the level on the deck page and in the level picker. */
+  intro?: string;
 }
 
 export type CategoryId =

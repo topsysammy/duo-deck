@@ -69,6 +69,7 @@ export const LevelSheet = forwardRef<
                       <span className="block text-[13px] text-muted">
                         {isCurrent ? "Playing now" : left === 0 ? "All played" : `${left} cards left`}
                       </span>
+                      {level.intro && <span className="mt-0.5 block text-[13px] leading-snug text-fg/80">{level.intro}</span>}
                     </span>
                   </button>
                 </li>

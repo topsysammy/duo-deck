@@ -45,6 +45,7 @@ export function LevelList({
                 <span className="block text-[13px] text-muted">
                   {pluralize(counts[level.id] ?? 0, "card")} · {level.blurb}
                 </span>
+                {level.intro && <span className="mt-1 block text-[13px] leading-snug text-fg/80">{level.intro}</span>}
               </span>
               {first && <span className="text-[13px] font-semibold text-pink-soft">Start here</span>}
             </Link>

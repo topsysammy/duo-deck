@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "decks": {
     "first-spark": {
       "version": 2,
@@ -34,8 +34,8 @@
       "card_count": 20
     },
     "after-dark": {
-      "version": 2,
-      "card_count": 20
+      "version": 3,
+      "card_count": 60
     },
     "would-you-rather-spicy": {
       "version": 2,

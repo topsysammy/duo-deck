@@ -108,3 +108,7 @@ Newest at the bottom. "PRD" = couples-card-app-prd.md (v2).
 74. **`NEXT_PUBLIC_SITE_URL` falls back to Vercel's production domain** (`VERCEL_PROJECT_PRODUCTION_URL`) when it isn't set. Without this, share previews pointed at `localhost`.
 75. **The Supabase URL is normalised** (a pasted `…/rest/v1/` or trailing slash is stripped), in the client and in the delete-account route.
 76. **No layout jumps on Us.** The server now renders the signed-out Account section, instead of "sign-in isn't switched on". Space is also reserved for the names form, the "x of 10 decks" line and the offline hint. CLS on Us went from 0.03 locally (0.19 on a slow live load) to 0.
+
+## Owner content
+
+77. **After Dark replaced with the owner's 60 cards** (2 Nov 2026), split 20/20/20 with spice 1/2/3. Eight cards were reworded for two partners (owner-approved approach) and are tagged `adapted`; the other cards are word for word and carry no `draft` tag. The ids are new (`after-dark-101…120`, `201…`, `301…`), so the old draft ids are never reused. Deck version 3; manifest version 3. New tagline "No boring questions" and description "Flirty to steamy across three levels…". Levels can now have an optional `intro` line, shown on the deck page and in the level picker. Replacements for the near-repeat cards are proposed to the owner, not yet applied.
