@@ -1,0 +1,321 @@
+{
+  "id": "first-spark",
+  "slug": "first-spark",
+  "name": "First Spark",
+  "tagline": "Light questions to get the sparks flying",
+  "description": "Easy, playful questions for couples still getting to know each other. Nothing awkward, lots of laughs.",
+  "category_id": "fun",
+  "mode": "qa",
+  "is_spicy": false,
+  "locale": "en",
+  "version": 2,
+  "levels": [
+    {
+      "id": 1,
+      "name": "All cards",
+      "blurb": "play in any order"
+    }
+  ],
+  "cards": [
+    {
+      "id": "first-spark-001",
+      "deck_id": "first-spark",
+      "level": 1,
+      "type": "question",
+      "text": "If we had a theme song as a couple, what would it be?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "first-spark-002",
+      "deck_id": "first-spark",
+      "level": 1,
+      "type": "question",
+      "text": "What's the most random thing you've ever searched online?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "first-spark-003",
+      "deck_id": "first-spark",
+      "level": 1,
+      "type": "question",
+      "text": "Which food could you happily eat every day for a month?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "first-spark-004",
+      "deck_id": "first-spark",
+      "level": 1,
+      "type": "question",
+      "text": "Be honest: what was your first impression of me?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "first-spark-005",
+      "deck_id": "first-spark",
+      "level": 1,
+      "type": "question",
+      "text": "If you could swap lives with any celebrity for a day, who would it be?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "first-spark-006",
+      "deck_id": "first-spark",
+      "level": 1,
+      "type": "question",
+      "text": "What's a small thing that instantly puts you in a good mood?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "first-spark-007",
+      "deck_id": "first-spark",
+      "level": 1,
+      "type": "question",
+      "text": "Which emoji do you use way too much?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "first-spark-008",
+      "deck_id": "first-spark",
+      "level": 1,
+      "type": "question",
+      "text": "What would your perfect Sunday look like, from start to finish?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "first-spark-009",
+      "deck_id": "first-spark",
+      "level": 1,
+      "type": "question",
+      "text": "If you opened a buka tomorrow, what would be on the menu?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "first-spark-010",
+      "deck_id": "first-spark",
+      "level": 1,
+      "type": "question",
+      "text": "What's a skill you secretly wish you had?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "first-spark-011",
+      "deck_id": "first-spark",
+      "level": 1,
+      "type": "question",
+      "text": "Which song do you sing along to, even when you don't know the words?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "first-spark-012",
+      "deck_id": "first-spark",
+      "level": 1,
+      "type": "question",
+      "text": "What's the funniest thing you've seen happen at an owambe?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "first-spark-013",
+      "deck_id": "first-spark",
+      "level": 1,
+      "type": "question",
+      "text": "If we won a free trip this weekend, where are we going?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "first-spark-014",
+      "deck_id": "first-spark",
+      "level": 1,
+      "type": "question",
+      "text": "What's one thing on your bucket list that would surprise me?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "first-spark-015",
+      "deck_id": "first-spark",
+      "level": 1,
+      "type": "question",
+      "text": "Which cartoon character are you most like, and why?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "first-spark-016",
+      "deck_id": "first-spark",
+      "level": 1,
+      "type": "question",
+      "text": "What's the most embarrassing song on your playlist?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "first-spark-017",
+      "deck_id": "first-spark",
+      "level": 1,
+      "type": "question",
+      "text": "If we swapped jobs for a day, how would you do at mine?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "first-spark-018",
+      "deck_id": "first-spark",
+      "level": 1,
+      "type": "question",
+      "text": "Which jollof wins: Nigerian, Ghanaian, or your mum's?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "first-spark-019",
+      "deck_id": "first-spark",
+      "level": 1,
+      "type": "question",
+      "text": "What's a small habit of mine you secretly find cute?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "first-spark-020",
+      "deck_id": "first-spark",
+      "level": 1,
+      "type": "question",
+      "text": "If you could live inside any movie for a week, which would you pick?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    }
+  ]
+}

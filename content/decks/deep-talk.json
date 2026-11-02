@@ -1,0 +1,331 @@
+{
+  "id": "deep-talk",
+  "slug": "deep-talk",
+  "name": "Deep Talk",
+  "tagline": "Go past the small talk",
+  "description": "Three levels that start easy and go deeper. Take turns; there are no wrong answers.",
+  "category_id": "deep-talk",
+  "mode": "qa",
+  "is_spicy": false,
+  "locale": "en",
+  "version": 2,
+  "levels": [
+    {
+      "id": 1,
+      "name": "Icebreaker",
+      "blurb": "light and easy"
+    },
+    {
+      "id": 2,
+      "name": "Getting closer",
+      "blurb": "a little more open"
+    },
+    {
+      "id": 3,
+      "name": "Deep dive",
+      "blurb": "the big questions"
+    }
+  ],
+  "cards": [
+    {
+      "id": "deep-talk-001",
+      "deck_id": "deep-talk",
+      "level": 1,
+      "type": "question",
+      "text": "What's a childhood memory that still makes you smile?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "deep-talk-002",
+      "deck_id": "deep-talk",
+      "level": 1,
+      "type": "question",
+      "text": "Which person shaped who you are the most, and how?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "deep-talk-003",
+      "deck_id": "deep-talk",
+      "level": 1,
+      "type": "question",
+      "text": "What does a really good day look like for you right now?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "deep-talk-004",
+      "deck_id": "deep-talk",
+      "level": 1,
+      "type": "question",
+      "text": "What's something you've changed your mind about in the last few years?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "deep-talk-005",
+      "deck_id": "deep-talk",
+      "level": 1,
+      "type": "question",
+      "text": "When do you feel most like yourself?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "deep-talk-006",
+      "deck_id": "deep-talk",
+      "level": 2,
+      "type": "question",
+      "text": "What do you wish people understood about you without you having to explain?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "deep-talk-007",
+      "deck_id": "deep-talk",
+      "level": 2,
+      "type": "question",
+      "text": "When did you last feel really proud of yourself?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "deep-talk-008",
+      "deck_id": "deep-talk",
+      "level": 2,
+      "type": "question",
+      "text": "What's a habit of mine that you've quietly come to love?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "deep-talk-009",
+      "deck_id": "deep-talk",
+      "level": 2,
+      "type": "question",
+      "text": "How do you like to be comforted after a hard day?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "deep-talk-010",
+      "deck_id": "deep-talk",
+      "level": 2,
+      "type": "question",
+      "text": "What's one thing you'd like us to do more of together?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "deep-talk-011",
+      "deck_id": "deep-talk",
+      "level": 3,
+      "type": "question",
+      "text": "What's a fear you rarely say out loud?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "deep-talk-012",
+      "deck_id": "deep-talk",
+      "level": 3,
+      "type": "question",
+      "text": "What do you hope people remember about you one day?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "deep-talk-013",
+      "deck_id": "deep-talk",
+      "level": 3,
+      "type": "question",
+      "text": "Which moment in our relationship changed how you saw us?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "deep-talk-014",
+      "deck_id": "deep-talk",
+      "level": 3,
+      "type": "question",
+      "text": "What does feeling safe with someone mean to you?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "deep-talk-015",
+      "deck_id": "deep-talk",
+      "level": 3,
+      "type": "question",
+      "text": "What's a dream you put on hold that you'd like to pick back up?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "deep-talk-016",
+      "deck_id": "deep-talk",
+      "level": 1,
+      "type": "question",
+      "text": "What's a compliment you still remember years later?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "deep-talk-017",
+      "deck_id": "deep-talk",
+      "level": 2,
+      "type": "question",
+      "text": "What's something you're learning about yourself lately?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "deep-talk-018",
+      "deck_id": "deep-talk",
+      "level": 2,
+      "type": "question",
+      "text": "When do you feel most supported by me?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "deep-talk-019",
+      "deck_id": "deep-talk",
+      "level": 3,
+      "type": "question",
+      "text": "What's a part of your past you'd like me to understand better?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "deep-talk-020",
+      "deck_id": "deep-talk",
+      "level": 3,
+      "type": "question",
+      "text": "What does a good life look like to you when we're old?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    }
+  ]
+}

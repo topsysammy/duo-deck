@@ -1,0 +1,14 @@
+node_modules
+.next
+out
+.vercel
+*.tsbuildinfo
+next-env.d.ts
+.env*.local
+.env
+public/decks
+public/sw.js
+public/sw.js.map
+public/swe-worker-*
+.DS_Store
+coverage

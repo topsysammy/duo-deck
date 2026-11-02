@@ -1,0 +1,321 @@
+{
+  "id": "faith-and-family",
+  "slug": "faith-and-family",
+  "name": "Faith & Family",
+  "tagline": "Values, faith and the families that made you",
+  "description": "Gentle questions about faith, family expectations and the home you want to build.",
+  "category_id": "faith-family",
+  "mode": "qa",
+  "is_spicy": false,
+  "locale": "en",
+  "version": 2,
+  "levels": [
+    {
+      "id": 1,
+      "name": "All cards",
+      "blurb": "play in any order"
+    }
+  ],
+  "cards": [
+    {
+      "id": "faith-and-family-001",
+      "deck_id": "faith-and-family",
+      "level": 1,
+      "type": "question",
+      "text": "What role does faith play in your everyday life?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "faith-and-family-002",
+      "deck_id": "faith-and-family",
+      "level": 1,
+      "type": "question",
+      "text": "Which family tradition would you love to keep in our home?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "faith-and-family-003",
+      "deck_id": "faith-and-family",
+      "level": 1,
+      "type": "question",
+      "text": "How did your parents handle disagreements, and what did you learn?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "faith-and-family-004",
+      "deck_id": "faith-and-family",
+      "level": 1,
+      "type": "question",
+      "text": "What's a prayer or hope you carry for us?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "faith-and-family-005",
+      "deck_id": "faith-and-family",
+      "level": 1,
+      "type": "question",
+      "text": "How involved would you like our families to be in our decisions?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "faith-and-family-006",
+      "deck_id": "faith-and-family",
+      "level": 1,
+      "type": "question",
+      "text": "What does a peaceful home feel like to you?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "faith-and-family-007",
+      "deck_id": "faith-and-family",
+      "level": 1,
+      "type": "question",
+      "text": "Which family member do you go to for advice, and why?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "faith-and-family-008",
+      "deck_id": "faith-and-family",
+      "level": 1,
+      "type": "question",
+      "text": "How would you like us to celebrate holidays like Christmas or Sallah?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "faith-and-family-009",
+      "deck_id": "faith-and-family",
+      "level": 1,
+      "type": "question",
+      "text": "What values would you hope to pass on to children, if we have them?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "faith-and-family-010",
+      "deck_id": "faith-and-family",
+      "level": 1,
+      "type": "question",
+      "text": "How do you like to rest and recharge at the weekend?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "faith-and-family-011",
+      "deck_id": "faith-and-family",
+      "level": 1,
+      "type": "question",
+      "text": "What's something your family does that you'd do differently?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "faith-and-family-012",
+      "deck_id": "faith-and-family",
+      "level": 1,
+      "type": "question",
+      "text": "How can we support each other's spiritual growth?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "faith-and-family-013",
+      "deck_id": "faith-and-family",
+      "level": 1,
+      "type": "question",
+      "text": "Who in your family would you most like me to get to know better?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "faith-and-family-014",
+      "deck_id": "faith-and-family",
+      "level": 1,
+      "type": "question",
+      "text": "What does honouring our parents look like for us as adults?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "faith-and-family-015",
+      "deck_id": "faith-and-family",
+      "level": 1,
+      "type": "question",
+      "text": "What's a blessing in your life you don't give thanks for often enough?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "faith-and-family-016",
+      "deck_id": "faith-and-family",
+      "level": 1,
+      "type": "question",
+      "text": "Which prayer, verse or saying gives you strength in hard times?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "faith-and-family-017",
+      "deck_id": "faith-and-family",
+      "level": 1,
+      "type": "question",
+      "text": "How would you like us to share family visits and holidays?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "faith-and-family-018",
+      "deck_id": "faith-and-family",
+      "level": 1,
+      "type": "question",
+      "text": "What's a lesson from your grandparents you want to keep?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "faith-and-family-019",
+      "deck_id": "faith-and-family",
+      "level": 1,
+      "type": "question",
+      "text": "How would you like us to give back to our community?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "faith-and-family-020",
+      "deck_id": "faith-and-family",
+      "level": 1,
+      "type": "question",
+      "text": "What does a day of rest look like for us as a family?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    }
+  ]
+}

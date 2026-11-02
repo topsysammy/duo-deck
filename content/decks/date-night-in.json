@@ -1,0 +1,321 @@
+{
+  "id": "date-night-in",
+  "slug": "date-night-in",
+  "name": "Date Night In",
+  "tagline": "Questions and little activities for a night at home",
+  "description": "Mix of conversation and things to do together. No booking, no traffic, just the two of you.",
+  "category_id": "date-night",
+  "mode": "qa",
+  "is_spicy": false,
+  "locale": "en",
+  "version": 2,
+  "levels": [
+    {
+      "id": 1,
+      "name": "All cards",
+      "blurb": "play in any order"
+    }
+  ],
+  "cards": [
+    {
+      "id": "date-night-in-001",
+      "deck_id": "date-night-in",
+      "level": 1,
+      "type": "activity",
+      "text": "Cook a dish together that neither of you has made before.",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "date-night-in-002",
+      "deck_id": "date-night-in",
+      "level": 1,
+      "type": "question",
+      "text": "What was the best date we've ever been on, and why?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "date-night-in-003",
+      "deck_id": "date-night-in",
+      "level": 1,
+      "type": "activity",
+      "text": "Make a playlist together: you each add five songs that remind you of us.",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "date-night-in-004",
+      "deck_id": "date-night-in",
+      "level": 1,
+      "type": "activity",
+      "text": "Swap phones and pick each other's next profile picture.",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "date-night-in-005",
+      "deck_id": "date-night-in",
+      "level": 1,
+      "type": "question",
+      "text": "If tonight were a movie, what genre would it be?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "date-night-in-006",
+      "deck_id": "date-night-in",
+      "level": 1,
+      "type": "activity",
+      "text": "Give each other a two-minute shoulder rub.",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "date-night-in-007",
+      "deck_id": "date-night-in",
+      "level": 1,
+      "type": "question",
+      "text": "What's a date idea you've always wanted to try with me?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "date-night-in-008",
+      "deck_id": "date-night-in",
+      "level": 1,
+      "type": "activity",
+      "text": "Write each other a three-line note and swap them at the end of the night.",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "date-night-in-009",
+      "deck_id": "date-night-in",
+      "level": 1,
+      "type": "activity",
+      "text": "Recreate our first date at home, as closely as you can.",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "date-night-in-010",
+      "deck_id": "date-night-in",
+      "level": 1,
+      "type": "question",
+      "text": "Which of our inside jokes still makes you laugh the most?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "date-night-in-011",
+      "deck_id": "date-night-in",
+      "level": 1,
+      "type": "activity",
+      "text": "Have an indoor picnic on the floor with your favourite snacks.",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "date-night-in-012",
+      "deck_id": "date-night-in",
+      "level": 1,
+      "type": "activity",
+      "text": "Teach each other something in ten minutes: a dance, a word or a trick.",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "date-night-in-013",
+      "deck_id": "date-night-in",
+      "level": 1,
+      "type": "question",
+      "text": "What's one thing you'd love us to celebrate more often?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "date-night-in-014",
+      "deck_id": "date-night-in",
+      "level": 1,
+      "type": "activity",
+      "text": "Look through old photos together and tell the story behind one.",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "date-night-in-015",
+      "deck_id": "date-night-in",
+      "level": 1,
+      "type": "activity",
+      "text": "Plan our next real date together, start to finish, in five minutes.",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "date-night-in-016",
+      "deck_id": "date-night-in",
+      "level": 1,
+      "type": "activity",
+      "text": "Build a blanket fort and tell each other one secret inside it.",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "date-night-in-017",
+      "deck_id": "date-night-in",
+      "level": 1,
+      "type": "activity",
+      "text": "Play your favourite song from secondary school and dance to it together.",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "date-night-in-018",
+      "deck_id": "date-night-in",
+      "level": 1,
+      "type": "activity",
+      "text": "Take turns giving each other compliments for two minutes, no repeats.",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "date-night-in-019",
+      "deck_id": "date-night-in",
+      "level": 1,
+      "type": "question",
+      "text": "What's the most fun we've had on a night with no plans?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "date-night-in-020",
+      "deck_id": "date-night-in",
+      "level": 1,
+      "type": "question",
+      "text": "If we hosted a dinner for four, who would we invite?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    }
+  ]
+}

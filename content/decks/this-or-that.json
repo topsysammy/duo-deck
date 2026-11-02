@@ -1,0 +1,321 @@
+{
+  "id": "this-or-that",
+  "slug": "this-or-that",
+  "name": "This or That",
+  "tagline": "Quick picks, big debates",
+  "description": "Two options, one pick each. Choose in secret, then reveal and see how alike you really are.",
+  "category_id": "fun",
+  "mode": "would_you_rather",
+  "is_spicy": false,
+  "locale": "en",
+  "version": 2,
+  "levels": [
+    {
+      "id": 1,
+      "name": "All cards",
+      "blurb": "play in any order"
+    }
+  ],
+  "cards": [
+    {
+      "id": "this-or-that-001",
+      "deck_id": "this-or-that",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "A beach day in Lekki or a movie marathon at home?",
+      "option_a": "Beach day in Lekki",
+      "option_b": "Movie marathon at home",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "this-or-that-002",
+      "deck_id": "this-or-that",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "A fancy restaurant or a street-food crawl?",
+      "option_a": "Fancy restaurant",
+      "option_b": "Street-food crawl",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "this-or-that-003",
+      "deck_id": "this-or-that",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Read minds for a day or teleport anywhere for a day?",
+      "option_a": "Read minds",
+      "option_b": "Teleport anywhere",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "this-or-that-004",
+      "deck_id": "this-or-that",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Breakfast in bed or sleeping in until noon?",
+      "option_a": "Breakfast in bed",
+      "option_b": "Sleep in until noon",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "this-or-that-005",
+      "deck_id": "this-or-that",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "An adventure trip or a resort with zero plans?",
+      "option_a": "Adventure trip",
+      "option_b": "Resort, zero plans",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "this-or-that-006",
+      "deck_id": "this-or-that",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Dance all night or talk in a quiet corner all night?",
+      "option_a": "Dance all night",
+      "option_b": "Talk all night",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "this-or-that-007",
+      "deck_id": "this-or-that",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "A dog that follows you everywhere or a cat that ignores you?",
+      "option_a": "Loyal dog",
+      "option_b": "Unbothered cat",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "this-or-that-008",
+      "deck_id": "this-or-that",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Only Afrobeats for a year or only highlife for a year?",
+      "option_a": "Only Afrobeats",
+      "option_b": "Only highlife",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "this-or-that-009",
+      "deck_id": "this-or-that",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Long voice notes or quick phone calls?",
+      "option_a": "Long voice notes",
+      "option_b": "Quick calls",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "this-or-that-010",
+      "deck_id": "this-or-that",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Visit the past or peek into the future?",
+      "option_a": "Visit the past",
+      "option_b": "Peek at the future",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "this-or-that-011",
+      "deck_id": "this-or-that",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "A handwritten letter or a surprise gift?",
+      "option_a": "Handwritten letter",
+      "option_b": "Surprise gift",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "this-or-that-012",
+      "deck_id": "this-or-that",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Rainy day: pepper soup and stories, or board games and snacks?",
+      "option_a": "Pepper soup and stories",
+      "option_b": "Board games and snacks",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "this-or-that-013",
+      "deck_id": "this-or-that",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "A big house in a quiet town or a small flat in a busy city?",
+      "option_a": "Big house, quiet town",
+      "option_b": "Small flat, busy city",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "this-or-that-014",
+      "deck_id": "this-or-that",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "On a road trip, are you the driver or the DJ?",
+      "option_a": "The driver",
+      "option_b": "The DJ",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "this-or-that-015",
+      "deck_id": "this-or-that",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "A big birthday party or a quiet dinner for two?",
+      "option_a": "Big party",
+      "option_b": "Dinner for two",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "this-or-that-016",
+      "deck_id": "this-or-that",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Party jollof or late-night suya?",
+      "option_a": "Party jollof",
+      "option_b": "Late-night suya",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "this-or-that-017",
+      "deck_id": "this-or-that",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "A surprise visit or a planned date?",
+      "option_a": "Surprise visit",
+      "option_b": "Planned date",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "this-or-that-018",
+      "deck_id": "this-or-that",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Famous for a year or rich and unknown forever?",
+      "option_a": "Famous for a year",
+      "option_b": "Rich and unknown",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "this-or-that-019",
+      "deck_id": "this-or-that",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Cook dinner together or order in and relax?",
+      "option_a": "Cook together",
+      "option_b": "Order in",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "this-or-that-020",
+      "deck_id": "this-or-that",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "A road trip to Abuja or a weekend in Accra?",
+      "option_a": "Road trip to Abuja",
+      "option_b": "Weekend in Accra",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+@import "tailwindcss";
+
+/*
+ * Duo Deck design tokens — taken from the "Duo Deck — Key Screens" canvas.
+ * Dark only (DECISIONS.md #2). Every colour, radius and spacing value used by
+ * components lives here; components reference them through Tailwind
+ * utilities (bg-surface, rounded-card, …) or var(--…).
+ */
+:root {
+  color-scheme: dark;
+
+  /* Ground and surfaces */
+  --bg: #000000;
+  --surface: #141217;
+  --surface-2: #1c1a20;
+  --border: #2e2b33;
+  --dot: #4a4650;
+
+  /* Text */
+  --fg: #ffffff;
+  --muted: #a7a3ad;
+  --ink: #1a1218; /* text on light fills */
+  --ink-strong: #141218;
+  --ink-muted: #6b5562;
+
+  /* Brand */
+  --pink: #ec6f96;
+  --pink-soft: #ee8faa; /* links */
+  --pink-softer: #f5b3c6; /* link hover */
+  --pink-strong: #d9406f;
+  --pink-deep: #b8355f;
+  --cta-from: #d9577f;
+  --cta-mid: #f09ab3;
+  --cta: linear-gradient(100deg, var(--cta-from) 0%, var(--cta-mid) 48%, var(--cta-from) 100%);
+
+  /* Raw palette */
+  --orange: #e8961f;
+  --blue: #1e5fd9;
+  --magenta: #c8177e;
+  --cream: #fff1e8;
+  --yellow: #ffc24b;
+  --sky: #5e95e3;
+  --berry: #8e1453;
+  /* End stop darkened from the design's #9A6CEA so white text passes 4.5:1 */
+  --purple: linear-gradient(160deg, #3d5fd6 0%, #6b4fe0 60%, #7a55de 100%);
+
+  /* Card chrome */
+  --card-border-color: var(--pink);
+  --card-border-width: 3px;
+
+  /* Radii */
+  --radius-chip: 999px;
+  --radius-tile: 20px;
+  --radius-card: 22px;
+  --radius-panel: 26px;
+  --radius-card-lg: 30px;
+
+  /* Spacing */
+  --gutter: 24px;
+  --tabbar-h: 62px;
+  --app-max-w: 440px;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/*
+ * Accent swatches. Set data-accent on any element and its children can use
+ * bg-accent / text-on-accent. Each pair is checked for 4.5:1 contrast.
+ */
+[data-accent="cream"] { --accent-bg: var(--cream); --accent-fg: var(--ink); --accent-fg-muted: var(--ink-muted); }
+[data-accent="orange"] { --accent-bg: var(--orange); --accent-fg: var(--ink); --accent-fg-muted: #3d2a12; }
+[data-accent="yellow"] { --accent-bg: var(--yellow); --accent-fg: var(--ink); --accent-fg-muted: #4a3410; }
+[data-accent="sky"] { --accent-bg: var(--sky); --accent-fg: var(--ink); --accent-fg-muted: #13213a; }
+[data-accent="magenta"] { --accent-bg: var(--magenta); --accent-fg: #ffffff; --accent-fg-muted: #ffe3f0; }
+[data-accent="blue"] { --accent-bg: var(--blue); --accent-fg: #ffffff; --accent-fg-muted: #e1eaff; }
+[data-accent="berry"] { --accent-bg: var(--berry); --accent-fg: #ffffff; --accent-fg-muted: #ffd9ea; }
+[data-accent="purple"] { --accent-bg: var(--purple); --accent-fg: #ffffff; --accent-fg-muted: #ece6ff; }
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-border: var(--border);
+  --color-dot: var(--dot);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-ink: var(--ink);
+  --color-ink-strong: var(--ink-strong);
+  --color-ink-muted: var(--ink-muted);
+  --color-pink: var(--pink);
+  --color-pink-soft: var(--pink-soft);
+  --color-pink-softer: var(--pink-softer);
+  --color-pink-strong: var(--pink-strong);
+  --color-pink-deep: var(--pink-deep);
+  --color-orange: var(--orange);
+  --color-blue: var(--blue);
+  --color-magenta: var(--magenta);
+  --color-cream: var(--cream);
+  --color-yellow: var(--yellow);
+  --color-sky: var(--sky);
+  --color-berry: var(--berry);
+  --color-on-accent: var(--accent-fg);
+  --color-on-accent-muted: var(--accent-fg-muted);
+
+  --radius-chip: var(--radius-chip);
+  --radius-tile: var(--radius-tile);
+  --radius-card: var(--radius-card);
+  --radius-panel: var(--radius-panel);
+  --radius-card-lg: var(--radius-card-lg);
+
+  --spacing-gutter: var(--gutter);
+  --spacing-tabbar: var(--tabbar-h);
+  --container-app: var(--app-max-w);
+
+  --font-display: var(--font-bagel), ui-rounded, system-ui, sans-serif;
+  --font-sans: var(--font-outfit), ui-sans-serif, system-ui, sans-serif;
+}
+
+@utility bg-accent {
+  background: var(--accent-bg);
+}
+@utility bg-cta {
+  background: var(--cta);
+}
+@utility card-border {
+  border: var(--card-border-width) solid var(--card-border-color);
+}
+
+@layer base {
+  html {
+    background: var(--bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-sans);
+    min-height: 100dvh;
+    -webkit-font-smoothing: antialiased;
+  }
+  a {
+    color: var(--pink-soft);
+  }
+  a:hover {
+    color: var(--pink-softer);
+  }
+  /* Visible focus for every interactive element (WCAG 2.4.7) */
+  :focus-visible {
+    outline: 3px solid var(--pink-softer);
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}

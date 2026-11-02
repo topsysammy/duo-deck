@@ -1,0 +1,322 @@
+{
+  "id": "money-matters",
+  "slug": "money-matters",
+  "name": "Money Matters",
+  "tagline": "Money talk, without the fight",
+  "description": "Calm, honest questions about spending, saving, family and the future you're building.",
+  "category_id": "deep-talk",
+  "mode": "qa",
+  "accent": "yellow",
+  "is_spicy": false,
+  "locale": "en",
+  "version": 2,
+  "levels": [
+    {
+      "id": 1,
+      "name": "All cards",
+      "blurb": "play in any order"
+    }
+  ],
+  "cards": [
+    {
+      "id": "money-matters-001",
+      "deck_id": "money-matters",
+      "level": 1,
+      "type": "question",
+      "text": "What did money feel like in your home growing up?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "money-matters-002",
+      "deck_id": "money-matters",
+      "level": 1,
+      "type": "question",
+      "text": "Are you more of a saver or a spender, and why?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "money-matters-003",
+      "deck_id": "money-matters",
+      "level": 1,
+      "type": "question",
+      "text": "What's one purchase you have never regretted?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "money-matters-004",
+      "deck_id": "money-matters",
+      "level": 1,
+      "type": "question",
+      "text": "How do you feel about supporting family members financially?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "money-matters-005",
+      "deck_id": "money-matters",
+      "level": 1,
+      "type": "question",
+      "text": "If a surprise million naira landed in your account today, what would you do with it?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "money-matters-006",
+      "deck_id": "money-matters",
+      "level": 1,
+      "type": "question",
+      "text": "What's a money goal you'd love us to reach together?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "money-matters-007",
+      "deck_id": "money-matters",
+      "level": 1,
+      "type": "question",
+      "text": "How should we split costs so it feels fair to both of us?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "money-matters-008",
+      "deck_id": "money-matters",
+      "level": 1,
+      "type": "question",
+      "text": "What's your biggest money worry right now?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "money-matters-009",
+      "deck_id": "money-matters",
+      "level": 1,
+      "type": "question",
+      "text": "One joint account, separate accounts, or both?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "money-matters-010",
+      "deck_id": "money-matters",
+      "level": 1,
+      "type": "question",
+      "text": "How much can either of us spend before we check with the other?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "money-matters-011",
+      "deck_id": "money-matters",
+      "level": 1,
+      "type": "question",
+      "text": "What does financial security look like to you?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "money-matters-012",
+      "deck_id": "money-matters",
+      "level": 1,
+      "type": "question",
+      "text": "How do you feel about saving with an ajo or esusu group?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "money-matters-013",
+      "deck_id": "money-matters",
+      "level": 1,
+      "type": "question",
+      "text": "What's one money habit you'd like to build this year?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "money-matters-014",
+      "deck_id": "money-matters",
+      "level": 1,
+      "type": "question",
+      "text": "How should we plan for big costs like rent, school fees or a wedding?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "money-matters-015",
+      "deck_id": "money-matters",
+      "level": 1,
+      "type": "question",
+      "text": "What does a comfortable life look like to you in ten years?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "money-matters-016",
+      "deck_id": "money-matters",
+      "level": 1,
+      "type": "question",
+      "text": "What's a money mistake you learned the most from?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "money-matters-017",
+      "deck_id": "money-matters",
+      "level": 1,
+      "type": "question",
+      "text": "How much should we save each month before we treat ourselves?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "money-matters-018",
+      "deck_id": "money-matters",
+      "level": 1,
+      "type": "question",
+      "text": "Who taught you the most about money, and what did they say?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "money-matters-019",
+      "deck_id": "money-matters",
+      "level": 1,
+      "type": "question",
+      "text": "How do you feel about lending money to friends?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "money-matters-020",
+      "deck_id": "money-matters",
+      "level": 1,
+      "type": "question",
+      "text": "What's worth spending more on, and what's worth spending less on?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    }
+  ]
+}

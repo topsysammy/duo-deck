@@ -1,0 +1,321 @@
+{
+  "id": "love-languages",
+  "slug": "love-languages",
+  "name": "Love Languages",
+  "tagline": "How you give love, and how you like to receive it",
+  "description": "Find out what makes each of you feel loved, appreciated and seen.",
+  "category_id": "romance",
+  "mode": "qa",
+  "is_spicy": false,
+  "locale": "en",
+  "version": 2,
+  "levels": [
+    {
+      "id": 1,
+      "name": "All cards",
+      "blurb": "play in any order"
+    }
+  ],
+  "cards": [
+    {
+      "id": "love-languages-001",
+      "deck_id": "love-languages",
+      "level": 1,
+      "type": "question",
+      "text": "What's a small thing I do that makes you feel loved?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "love-languages-002",
+      "deck_id": "love-languages",
+      "level": 1,
+      "type": "question",
+      "text": "Which matters most to you: kind words, time, touch, help or gifts?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "love-languages-003",
+      "deck_id": "love-languages",
+      "level": 1,
+      "type": "question",
+      "text": "When did you last feel really appreciated by me?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "love-languages-004",
+      "deck_id": "love-languages",
+      "level": 1,
+      "type": "question",
+      "text": "What's a compliment from me that has stuck with you?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "love-languages-005",
+      "deck_id": "love-languages",
+      "level": 1,
+      "type": "question",
+      "text": "How do you show love when words feel hard?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "love-languages-006",
+      "deck_id": "love-languages",
+      "level": 1,
+      "type": "question",
+      "text": "What's the most thoughtful gift you've ever received?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "love-languages-007",
+      "deck_id": "love-languages",
+      "level": 1,
+      "type": "question",
+      "text": "Which chore could I take off your hands that would feel like a love letter?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "love-languages-008",
+      "deck_id": "love-languages",
+      "level": 1,
+      "type": "question",
+      "text": "What's your favourite way to spend a phone-free evening with me?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "love-languages-009",
+      "deck_id": "love-languages",
+      "level": 1,
+      "type": "question",
+      "text": "Quick squeeze or long hold: which hug is your favourite?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "love-languages-010",
+      "deck_id": "love-languages",
+      "level": 1,
+      "type": "question",
+      "text": "What do you need more of from me when you're stressed?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "love-languages-011",
+      "deck_id": "love-languages",
+      "level": 1,
+      "type": "question",
+      "text": "How did your family show love when you were growing up?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "love-languages-012",
+      "deck_id": "love-languages",
+      "level": 1,
+      "type": "question",
+      "text": "What's a sweet message you'd love to wake up to?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "love-languages-013",
+      "deck_id": "love-languages",
+      "level": 1,
+      "type": "question",
+      "text": "What makes you feel most seen by me?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "love-languages-014",
+      "deck_id": "love-languages",
+      "level": 1,
+      "type": "question",
+      "text": "Which tradition would you love us to start together?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "love-languages-015",
+      "deck_id": "love-languages",
+      "level": 1,
+      "type": "question",
+      "text": "What's one way I could love you better this month?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "love-languages-016",
+      "deck_id": "love-languages",
+      "level": 1,
+      "type": "question",
+      "text": "What's a small surprise from me that would make your week?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "love-languages-017",
+      "deck_id": "love-languages",
+      "level": 1,
+      "type": "question",
+      "text": "Do you feel more loved when I say it or when I show it?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "love-languages-018",
+      "deck_id": "love-languages",
+      "level": 1,
+      "type": "question",
+      "text": "What's one way I show love that you'd like more of?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "love-languages-019",
+      "deck_id": "love-languages",
+      "level": 1,
+      "type": "question",
+      "text": "Which of our everyday routines feels the most loving to you?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "love-languages-020",
+      "deck_id": "love-languages",
+      "level": 1,
+      "type": "question",
+      "text": "What's a love note you'd love to find in your bag one day?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    }
+  ]
+}

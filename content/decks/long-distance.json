@@ -1,0 +1,322 @@
+{
+  "id": "long-distance",
+  "slug": "long-distance",
+  "name": "Long Distance",
+  "tagline": "Closer than the miles",
+  "description": "For couples in different cities or countries. Play it on a video call or send a card on WhatsApp.",
+  "category_id": "romance",
+  "mode": "qa",
+  "accent": "sky",
+  "is_spicy": false,
+  "locale": "en",
+  "version": 2,
+  "levels": [
+    {
+      "id": 1,
+      "name": "All cards",
+      "blurb": "play in any order"
+    }
+  ],
+  "cards": [
+    {
+      "id": "long-distance-001",
+      "deck_id": "long-distance",
+      "level": 1,
+      "type": "question",
+      "text": "What's the first thing we'll do when we're together again?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "long-distance-002",
+      "deck_id": "long-distance",
+      "level": 1,
+      "type": "question",
+      "text": "Which time of day do you miss me the most?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "long-distance-003",
+      "deck_id": "long-distance",
+      "level": 1,
+      "type": "question",
+      "text": "What's something small you'd love me to send you in the post?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "long-distance-004",
+      "deck_id": "long-distance",
+      "level": 1,
+      "type": "question",
+      "text": "How can we make our calls feel less like a routine?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "long-distance-005",
+      "deck_id": "long-distance",
+      "level": 1,
+      "type": "question",
+      "text": "What's your favourite memory from our last visit?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "long-distance-006",
+      "deck_id": "long-distance",
+      "level": 1,
+      "type": "question",
+      "text": "If I arrived in your city today, what would you show me first?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "long-distance-007",
+      "deck_id": "long-distance",
+      "level": 1,
+      "type": "question",
+      "text": "What helps you most when you're missing me?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "long-distance-008",
+      "deck_id": "long-distance",
+      "level": 1,
+      "type": "question",
+      "text": "Which show should we watch at the same time this week?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "long-distance-009",
+      "deck_id": "long-distance",
+      "level": 1,
+      "type": "question",
+      "text": "What does a good goodnight message sound like to you?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "long-distance-010",
+      "deck_id": "long-distance",
+      "level": 1,
+      "type": "question",
+      "text": "When do you feel closest to me, even though we're apart?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "long-distance-011",
+      "deck_id": "long-distance",
+      "level": 1,
+      "type": "question",
+      "text": "What's one way the distance has made us stronger?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "long-distance-012",
+      "deck_id": "long-distance",
+      "level": 1,
+      "type": "question",
+      "text": "What will our perfect day look like once we live in the same city?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "long-distance-013",
+      "deck_id": "long-distance",
+      "level": 1,
+      "type": "question",
+      "text": "What's a tradition we could start just for our long-distance days?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "long-distance-014",
+      "deck_id": "long-distance",
+      "level": 1,
+      "type": "question",
+      "text": "What's something you'd rather tell me in person than on a call?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "long-distance-015",
+      "deck_id": "long-distance",
+      "level": 1,
+      "type": "question",
+      "text": "How do you picture our first week living in the same place?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "long-distance-016",
+      "deck_id": "long-distance",
+      "level": 1,
+      "type": "question",
+      "text": "What's a little ritual we could do every night before bed?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "long-distance-017",
+      "deck_id": "long-distance",
+      "level": 1,
+      "type": "question",
+      "text": "Which song makes you think of me when we're apart?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "long-distance-018",
+      "deck_id": "long-distance",
+      "level": 1,
+      "type": "question",
+      "text": "What's been the hardest part of the distance this month?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "long-distance-019",
+      "deck_id": "long-distance",
+      "level": 1,
+      "type": "question",
+      "text": "If you could teleport to me for one hour, what would we do?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "long-distance-020",
+      "deck_id": "long-distance",
+      "level": 1,
+      "type": "question",
+      "text": "What should we do on our next visit that we've never done before?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 0,
+      "locale": "en",
+      "version": 1
+    }
+  ]
+}

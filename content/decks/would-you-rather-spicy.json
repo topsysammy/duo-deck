@@ -1,0 +1,321 @@
+{
+  "id": "would-you-rather-spicy",
+  "slug": "would-you-rather-spicy",
+  "name": "Would You Rather: Spicy",
+  "tagline": "Flirty choices, revealed together",
+  "description": "Pick in secret, reveal together, then talk about it. Suggestive, never explicit. 18+.",
+  "category_id": "spicy",
+  "mode": "would_you_rather",
+  "is_spicy": true,
+  "locale": "en",
+  "version": 2,
+  "levels": [
+    {
+      "id": 1,
+      "name": "All cards",
+      "blurb": "play in any order"
+    }
+  ],
+  "cards": [
+    {
+      "id": "would-you-rather-spicy-001",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "A slow kiss in the rain or a surprise kiss in the kitchen?",
+      "option_a": "Slow kiss in the rain",
+      "option_b": "Surprise kiss in the kitchen",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 1,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-002",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "A candlelit bath for two or a slow dance in the living room?",
+      "option_a": "Candlelit bath",
+      "option_b": "Slow dance",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 1,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-003",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "A flirty voice note or a cheeky handwritten note?",
+      "option_a": "Flirty voice note",
+      "option_b": "Cheeky handwritten note",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 1,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-004",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "A cabin with no signal or a hotel with room service?",
+      "option_a": "Cabin, no signal",
+      "option_b": "Hotel, room service",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 2,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-005",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Teasing texts all day or a surprise when you get home?",
+      "option_a": "Teasing texts all day",
+      "option_b": "Surprise at home",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 2,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-006",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "A back massage or a foot massage?",
+      "option_a": "Back massage",
+      "option_b": "Foot massage",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 1,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-007",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Choose my outfit for a date or let me choose yours?",
+      "option_a": "I choose yours",
+      "option_b": "You choose mine",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 1,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-008",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Playful and giggly or slow and intense?",
+      "option_a": "Playful and giggly",
+      "option_b": "Slow and intense",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 2,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-009",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Breakfast in bed or a lazy morning of cuddles?",
+      "option_a": "Breakfast in bed",
+      "option_b": "Lazy morning cuddles",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 1,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-010",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Dinner and dancing or a movie under one blanket?",
+      "option_a": "Dinner and dancing",
+      "option_b": "Movie under one blanket",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 1,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-011",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Make the first move or wait for me to make it?",
+      "option_a": "Make the first move",
+      "option_b": "Wait for you",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 2,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-012",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Our song on repeat or total quiet, just us?",
+      "option_a": "Our song on repeat",
+      "option_b": "Total quiet",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 1,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-013",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "A long hug from behind or a kiss on the forehead?",
+      "option_a": "Hug from behind",
+      "option_b": "Forehead kiss",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 1,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-014",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Fresh cologne or the smell of coconut body butter?",
+      "option_a": "Fresh cologne",
+      "option_b": "Coconut body butter",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 1,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-015",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Dress up for a date at home or stay in pyjamas together all night?",
+      "option_a": "Dress up at home",
+      "option_b": "Pyjamas all night",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 2,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-016",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "A slow massage or a long kiss goodnight?",
+      "option_a": "Slow massage",
+      "option_b": "Long kiss goodnight",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 1,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-017",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Candles and silk sheets or a fireplace and a blanket?",
+      "option_a": "Candles and silk sheets",
+      "option_b": "Fireplace and a blanket",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 2,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-018",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Hold hands in public or sneak a kiss in public?",
+      "option_a": "Hold hands",
+      "option_b": "Sneak a kiss",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 1,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-019",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Matching outfits or matching pyjamas?",
+      "option_a": "Matching outfits",
+      "option_b": "Matching pyjamas",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 1,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-020",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "A late-night drive or a midnight swim together?",
+      "option_a": "Late-night drive",
+      "option_b": "Midnight swim",
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 2,
+      "locale": "en",
+      "version": 1
+    }
+  ]
+}

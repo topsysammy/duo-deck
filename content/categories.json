@@ -1,0 +1,50 @@
+[
+  {
+    "id": "romance",
+    "name": "Romance",
+    "description": "Sweet questions about how you love each other.",
+    "accent": "magenta",
+    "is_spicy": false,
+    "order": 1
+  },
+  {
+    "id": "deep-talk",
+    "name": "Deep Talk",
+    "description": "Conversations that go past the small talk.",
+    "accent": "purple",
+    "is_spicy": false,
+    "order": 2
+  },
+  {
+    "id": "fun",
+    "name": "Fun & Hypotheticals",
+    "description": "Silly, quick and full of laughs.",
+    "accent": "cream",
+    "is_spicy": false,
+    "order": 3
+  },
+  {
+    "id": "date-night",
+    "name": "Date Night",
+    "description": "Questions and activities for a night in.",
+    "accent": "orange",
+    "is_spicy": false,
+    "order": 4
+  },
+  {
+    "id": "faith-family",
+    "name": "Faith & Family",
+    "description": "Values, faith and the families you come from.",
+    "accent": "blue",
+    "is_spicy": false,
+    "order": 5
+  },
+  {
+    "id": "spicy",
+    "name": "Spicy",
+    "description": "Flirty and romantic. 18+ only.",
+    "accent": "berry",
+    "is_spicy": true,
+    "order": 6
+  }
+]

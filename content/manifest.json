@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "decks": {
+    "first-spark": {
+      "version": 2,
+      "card_count": 20
+    },
+    "this-or-that": {
+      "version": 2,
+      "card_count": 20
+    },
+    "deep-talk": {
+      "version": 2,
+      "card_count": 20
+    },
+    "love-languages": {
+      "version": 2,
+      "card_count": 20
+    },
+    "money-matters": {
+      "version": 2,
+      "card_count": 20
+    },
+    "date-night-in": {
+      "version": 2,
+      "card_count": 20
+    },
+    "faith-and-family": {
+      "version": 2,
+      "card_count": 20
+    },
+    "long-distance": {
+      "version": 2,
+      "card_count": 20
+    },
+    "after-dark": {
+      "version": 2,
+      "card_count": 20
+    },
+    "would-you-rather-spicy": {
+      "version": 2,
+      "card_count": 20
+    }
+  }
+}

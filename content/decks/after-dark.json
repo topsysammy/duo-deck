@@ -1,0 +1,331 @@
+{
+  "id": "after-dark",
+  "slug": "after-dark",
+  "name": "After Dark",
+  "tagline": "Flirty questions for after the lights go low",
+  "description": "Romantic and flirty, never explicit. Three levels; go only as far as you both want. 18+.",
+  "category_id": "spicy",
+  "mode": "qa",
+  "is_spicy": true,
+  "locale": "en",
+  "version": 2,
+  "levels": [
+    {
+      "id": 1,
+      "name": "Icebreaker",
+      "blurb": "flirty warm-up"
+    },
+    {
+      "id": 2,
+      "name": "Getting closer",
+      "blurb": "turning up the heat"
+    },
+    {
+      "id": 3,
+      "name": "Deep dive",
+      "blurb": "just for you two"
+    }
+  ],
+  "cards": [
+    {
+      "id": "after-dark-001",
+      "deck_id": "after-dark",
+      "level": 1,
+      "type": "question",
+      "text": "When did you first find me attractive?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 1,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "after-dark-002",
+      "deck_id": "after-dark",
+      "level": 1,
+      "type": "question",
+      "text": "Which outfit of mine do you secretly love the most?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 1,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "after-dark-003",
+      "deck_id": "after-dark",
+      "level": 1,
+      "type": "question",
+      "text": "What's the most romantic place you'd love to kiss me?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 1,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "after-dark-004",
+      "deck_id": "after-dark",
+      "level": 1,
+      "type": "question",
+      "text": "What do you notice first about me when I walk into a room?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 1,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "after-dark-005",
+      "deck_id": "after-dark",
+      "level": 1,
+      "type": "question",
+      "text": "Which song puts you in a romantic mood?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 1,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "after-dark-006",
+      "deck_id": "after-dark",
+      "level": 2,
+      "type": "question",
+      "text": "What's a compliment that would make you blush?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 2,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "after-dark-007",
+      "deck_id": "after-dark",
+      "level": 2,
+      "type": "question",
+      "text": "Describe your idea of a perfect slow evening with me.",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 2,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "after-dark-008",
+      "deck_id": "after-dark",
+      "level": 2,
+      "type": "question",
+      "text": "What's something I do that you find unexpectedly attractive?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 2,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "after-dark-009",
+      "deck_id": "after-dark",
+      "level": 2,
+      "type": "question",
+      "text": "Where's the most memorable place we've shared a kiss?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 2,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "after-dark-010",
+      "deck_id": "after-dark",
+      "level": 2,
+      "type": "question",
+      "text": "What does feeling desired by me look like to you?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 2,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "after-dark-011",
+      "deck_id": "after-dark",
+      "level": 3,
+      "type": "question",
+      "text": "What's a fantasy date you've never told me about?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 3,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "after-dark-012",
+      "deck_id": "after-dark",
+      "level": 3,
+      "type": "question",
+      "text": "What's one thing you'd like us to try that feels a little daring?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 3,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "after-dark-013",
+      "deck_id": "after-dark",
+      "level": 3,
+      "type": "question",
+      "text": "How do you like to be reminded that I want you?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 3,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "after-dark-014",
+      "deck_id": "after-dark",
+      "level": 3,
+      "type": "question",
+      "text": "What's the most irresistible thing I could whisper to you?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 3,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "after-dark-015",
+      "deck_id": "after-dark",
+      "level": 3,
+      "type": "question",
+      "text": "When do you feel most confident and wanted with me?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 3,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "after-dark-016",
+      "deck_id": "after-dark",
+      "level": 1,
+      "type": "question",
+      "text": "What's the most attractive thing I've ever said to you?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 1,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "after-dark-017",
+      "deck_id": "after-dark",
+      "level": 2,
+      "type": "question",
+      "text": "What's a look from me that makes your heart race?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 2,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "after-dark-018",
+      "deck_id": "after-dark",
+      "level": 2,
+      "type": "question",
+      "text": "Describe a date that would leave you thinking about me all week.",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 2,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "after-dark-019",
+      "deck_id": "after-dark",
+      "level": 3,
+      "type": "question",
+      "text": "What's a romantic surprise you'd love me to plan for you?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 3,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "after-dark-020",
+      "deck_id": "after-dark",
+      "level": 3,
+      "type": "question",
+      "text": "Where would you love us to steal a kiss that we never have?",
+      "option_a": null,
+      "option_b": null,
+      "tags": [
+        "draft"
+      ],
+      "spice_level": 3,
+      "locale": "en",
+      "version": 1
+    }
+  ]
+}
