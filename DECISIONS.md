@@ -88,3 +88,22 @@ Newest at the bottom. "PRD" = couples-card-app-prd.md (v2).
 65. **PostHog's bot filter drops headless or automated browsers.** Browser tests hide `navigator.webdriver` and use a phone user agent to see events. Production users are unaffected.
 66. **Card events carry deck_id, card_id, level and mode** (`qa`, `would_you_rather` or `favorites`). In the favorites mini-deck, `level` is the mini-deck's single level (1), not the card's level in its original deck.
 67. **Account section always visible** (owner feedback, 2 Nov 2026). Without Supabase keys it explains that sign-in isn't switched on yet, instead of disappearing. Once keys are set it shows "Sign in to sync", and after sign-in "Sync now", "Sign out" and "Delete account".
+
+## Phase 6 — Performance, accessibility and offline audit
+
+68. **Pages no longer bail out to client-only rendering.** `useSearchParams` inside a statically prerendered page made Next send an empty body for Play, Welcome, Session and Sign-in, so nothing painted until all the JS had run (Play's first paint was 3.4 s on throttled 4G). A small `useQueryParam` hook (`hooks/use-query-param.ts`) reads the query string after hydration instead. Play's first paint dropped to about 0.9 s in Lighthouse's mobile simulation. Opening `/welcome?step=quiz` with a full page load shows intro 1 for one frame before the quiz.
+69. **Deck packs are preloaded** on non-spicy Play pages (`<link rel="preload" as="fetch">`), so the cards download alongside the JS. Spicy packs still load only after the 18+ gate.
+70. **Known gap: Lighthouse mobile Performance on Play pages is 88–90; every other page scores 93–100.** The score comes from Largest Contentful Paint, which on Play is the card itself. The card renders in the browser after the JS, IndexedDB (resume) and the deck pack load. That's by design: spicy text stays out of the HTML, and the pack is what the service worker caches for offline play. Under the simulated slow 4G this costs about 3.7 s, against about 0.9 s for pages whose main content is in the HTML. Possible next step: render the first card without waiting for Framer Motion. That needs a decision from the owner.
+71. **Accessibility fixes:**
+    - Welcome now has a `<main id="main">` landmark, so the skip link works.
+    - Deck tiles drop their `aria-label`. The name is now first in the DOM, while still sitting at the bottom visually through `flex-col-reverse`, so the link's accessible name matches its visible text (WCAG 2.5.3).
+    - axe-core (WCAG 2.1 A/AA + best practice) found no issues on 14 pages and 6 dialog or game states.
+    - Keyboard walk-through: every control can be reached and shows a focus ring.
+72. **Measured:**
+    - Initial JS, gzipped: 185 KB (Home) to 214 KB (Play).
+    - Swipes at a 4× slower CPU: 317 frames with a median and 95th percentile of 16.7 ms, and no frame over 20 ms. Only 11 layouts in 5 swipes, all at card changes.
+    - CLS is 0 everywhere except Us (0.03).
+    - The SEO score of 60 on Play, Saved, Us, Sign-in and Session is because these pages are deliberately `noindex`.
+73. **Content tests no longer require the `draft` tag** (removing it is how a card gets approved). The card-count test uses a synthetic deck, so editing real decks never breaks it.
+74. **`NEXT_PUBLIC_SITE_URL` falls back to Vercel's production domain** (`VERCEL_PROJECT_PRODUCTION_URL`) when it isn't set. Without this, share previews pointed at `localhost`.
+75. **The Supabase URL is normalised** (a pasted `…/rest/v1/` or trailing slash is stripped), in the client and in the delete-account route.

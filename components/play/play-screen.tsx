@@ -1,7 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
+import { useQueryParam } from "@/hooks/use-query-param";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, LazyMotion } from "framer-motion";
 import { useLiveQuery } from "dexie-react-hooks";
@@ -49,8 +50,7 @@ export interface PlayScreenProps {
 /** The game screen (PRD §5.2). Deck loading is done by the caller (a deck or the favorites mini-deck). */
 export function PlayScreen({ summary, accent, data, mode = "deck", backHref, backLabel, decks }: PlayScreenProps) {
   const router = useRouter();
-  const params = useSearchParams();
-  const levelParam = Number(params.get("level"));
+  const levelParam = Number(useQueryParam("level"));
   const startLevel = Number.isInteger(levelParam) && levelParam > 0 ? levelParam : undefined;
 
   const { status, deck, retry } = data;

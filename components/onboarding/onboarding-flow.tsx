@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { useRouter, useSearchParams } from "next/navigation";
+import { useRouter } from "next/navigation";
+import { useQueryParam } from "@/hooks/use-query-param";
 import type { Mood, RelationshipStage } from "@/lib/prefs/filters";
 import { updateSettings } from "@/lib/db/settings";
 import { track } from "@/lib/analytics/track";
@@ -35,8 +36,12 @@ const QUIZ: Step[] = ["stage", "mood", "content"];
  */
 export function OnboardingFlow() {
   const router = useRouter();
-  const params = useSearchParams();
-  const [step, setStep] = useState<Step>(params.get("step") === "quiz" ? "stage" : "intro1");
+  const startAtQuiz = useQueryParam("step") === "quiz";
+  const [step, setStep] = useState<Step>(startAtQuiz ? "stage" : "intro1");
+  // On a full page load the param is only known after hydration.
+  useEffect(() => {
+    if (startAtQuiz) setStep((s) => (s === "intro1" ? "stage" : s));
+  }, [startAtQuiz]);
   const [stage, setStage] = useState<RelationshipStage | null>(null);
   const [moods, setMoods] = useState<Mood[]>([]);
   const [partnerA, setPartnerA] = useState("");
@@ -98,7 +103,7 @@ export function OnboardingFlow() {
   const canContinue = step !== "content" || !spicy || adult;
 
   return (
-    <main id="main" className="mx-auto flex min-h-dvh w-full max-w-app flex-col gap-6 px-gutter pt-7 pb-[calc(32px+env(safe-area-inset-bottom))]">
+    <div className="mx-auto flex min-h-dvh w-full max-w-app flex-col gap-6 px-gutter pt-7 pb-[calc(32px+env(safe-area-inset-bottom))]">
       <div className="flex items-center justify-between">
         <Button variant="secondary" size="icon" aria-label="Back" className="size-11" onClick={back}>
           <ChevronLeft />
@@ -207,7 +212,7 @@ export function OnboardingFlow() {
           {step === "content" ? "Start playing" : "Continue"}
         </Button>
       </div>
-    </main>
+    </div>
   );
 }
 

@@ -6,8 +6,10 @@ export const metadata: Metadata = { title: "Welcome" };
 
 export default function WelcomePage() {
   return (
-    <Suspense>
-      <OnboardingFlow />
-    </Suspense>
+    <main id="main" className="mx-auto w-full max-w-app">
+      <Suspense>
+        <OnboardingFlow />
+      </Suspense>
+    </main>
   );
 }

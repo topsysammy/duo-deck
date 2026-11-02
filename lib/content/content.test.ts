@@ -69,7 +69,8 @@ describe("content packs", () => {
           expect(card.text.length, `${where} under ${MAX_PROMPT_LENGTH} chars`).toBeLessThanOrEqual(
             MAX_PROMPT_LENGTH,
           );
-          expect(card.tags, where).toContain("draft");
+          // "draft" marks a card nobody has reviewed yet; removing it is how a card gets approved.
+          expect(Array.isArray(card.tags) && card.tags.every((t) => typeof t === "string"), where).toBe(true);
           expect(Number.isInteger(card.version) && card.version >= 1, where).toBe(true);
           expect(card.locale, where).toBe("en");
 
@@ -100,12 +101,15 @@ describe("content packs", () => {
 
 describe("deck utils", () => {
   it("summarises card and level counts", () => {
-    const deep = DECKS.find((d) => d.id === "deep-talk")!;
-    const s = toSummary(deep);
-    expect(s.card_count).toBe(20);
-    expect(s.level_counts).toEqual({ 1: 6, 2: 7, 3: 7 });
+    // Synthetic deck, so editing real content never breaks this test.
+    const base = DECKS.find((d) => d.levels.length === 3)!;
+    const card = base.cards[0]!;
+    const cards = [1, 1, 2, 3, 3, 3].map((level, i) => ({ ...card, id: `x-${i}`, level }));
+    const s = toSummary({ ...base, cards });
+    expect(s.card_count).toBe(6);
+    expect(s.level_counts).toEqual({ 1: 2, 2: 1, 3: 3 });
     expect("cards" in s).toBe(false);
-    expect(deckMeta(s)).toBe("20 cards · 3 levels");
+    expect(deckMeta(s)).toBe("6 cards · 3 levels");
   });
 
   it("estimates minutes in 5-minute steps", () => {

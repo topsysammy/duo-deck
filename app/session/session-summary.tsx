@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { useSearchParams } from "next/navigation";
+import { useQueryParam } from "@/hooks/use-query-param";
 import { useLiveQuery } from "dexie-react-hooks";
 import type { Card } from "@/lib/content/types";
 import { db, type SessionRecord } from "@/lib/db/dexie";
@@ -28,10 +28,10 @@ function minutes(s: SessionRecord) {
 
 /** Session end (GP-9): what you played, what you saved, a nudge to share. */
 export function SessionSummary({ decks }: { decks: Record<string, DeckInfo> }) {
-  const id = useSearchParams().get("id") ?? "";
+  const id = useQueryParam("id");
   // undefined = loading, null = not found
   const auth = useAuth();
-  const session = useLiveQuery(async () => (await db.sessions.get(id)) ?? null, [id]);
+  const session = useLiveQuery(async () => (id === undefined ? undefined : ((id && (await db.sessions.get(id))) || null)), [id]);
   const [saved, setSaved] = useState<Card[]>([]);
   const [shareCard, setShareCard] = useState<Card | null>(null);
   const [shareTarget, setShareTarget] = useState<ShareTarget | null>(null);

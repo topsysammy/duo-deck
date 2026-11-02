@@ -1,10 +1,12 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
+import { preload } from "react-dom";
 import { notFound } from "next/navigation";
 import { DeckPlay } from "@/components/play/deck-play";
 import { SpicyGate } from "@/components/gate/spicy-gate";
 import { getAllDeckSlugs, getCategories, getDeck } from "@/lib/content/load.server";
 import { deckAccent, toSummary } from "@/lib/content/deck-utils";
+import { deckDataUrl } from "@/lib/content/fetch-deck";
 
 type Params = { slug: string };
 
@@ -27,6 +29,8 @@ export async function generateMetadata({ params }: { params: Promise<Params> }):
 export default async function PlayPage({ params }: { params: Promise<Params> }) {
   const deck = getDeck((await params).slug);
   if (!deck) notFound();
+  // Start downloading the pack alongside the JS so the first card paints sooner. Spicy packs wait for the gate.
+  if (!deck.is_spicy) preload(deckDataUrl(deck.slug, deck.version), { as: "fetch", crossOrigin: "anonymous" });
   const play = <DeckPlay summary={toSummary(deck)} accent={deckAccent(deck, getCategories())} />;
   return (
     <Suspense>

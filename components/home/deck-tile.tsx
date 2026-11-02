@@ -20,24 +20,24 @@ export function DeckTile({
     <Link
       href={`/deck/${deck.slug}`}
       data-accent={accent}
-      aria-label={`${deck.name}: ${pluralize(deck.card_count, "card")}, ${pluralize(levels, "level")}`}
       className={cn(
-        "bg-accent card-border flex h-[136px] w-[108px] shrink-0 snap-start flex-col justify-between rounded-tile p-3 text-on-accent no-underline",
+        // Name comes first in the DOM (so it leads the link's accessible name) but sits at the bottom visually.
+        "bg-accent card-border flex h-[136px] w-[108px] shrink-0 snap-start flex-col-reverse justify-between rounded-tile p-3 text-on-accent no-underline",
         "transition-transform duration-200 hover:text-on-accent hover:-translate-y-1",
       )}
       style={{ transform: `rotate(${TILTS[index % TILTS.length]}deg)` }}
     >
-      <span className="text-xs leading-tight font-medium" aria-hidden="true">
+      <span className="text-[17px] leading-[1.05] font-bold">{deck.name}</span>
+      <span className="text-xs leading-tight font-medium">
+        <span className="sr-only">, </span>
         {pluralize(deck.card_count, "card")}
         {levels > 1 && (
           <>
+            <span className="sr-only">, </span>
             <br />
             {pluralize(levels, "level")}
           </>
         )}
-      </span>
-      <span className="text-[17px] leading-[1.05] font-bold" aria-hidden="true">
-        {deck.name}
       </span>
     </Link>
   );
