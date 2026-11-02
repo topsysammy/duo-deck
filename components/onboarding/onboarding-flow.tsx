@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { useQueryParam } from "@/hooks/use-query-param";
 import type { Mood, RelationshipStage } from "@/lib/prefs/filters";
@@ -11,6 +11,7 @@ import { ChevronLeft } from "@/components/brand/icons";
 import { Pill } from "@/components/brand/primitives";
 import { Button } from "@/components/ui/button";
 import { IntroOne, IntroTwo } from "./intro-slides";
+import { LoginStep, SignedInStep } from "./login-step";
 import { QuizOption, StepDots } from "./quiz-option";
 
 const STAGES: { id: RelationshipStage; label: string; hint: string }[] = [
@@ -26,22 +27,25 @@ const MOODS: { id: Mood; label: string; hint: string }[] = [
   { id: "spicy", label: "Something flirty", hint: "18+" },
 ];
 
-type Step = "intro1" | "intro2" | "stage" | "mood" | "content";
+type Step = "intro1" | "intro2" | "login" | "signed-in" | "stage" | "mood" | "content";
 const QUIZ: Step[] = ["stage", "mood", "content"];
 
 /**
- * Onboarding (ON-3): two intro slides, then a 3-step quiz (stage + names,
- * mood, content filter + 18+). Every screen can be skipped. `?step=quiz`
- * starts at the quiz (used by "Redo the quiz" in Settings).
+ * Onboarding (ON-3): two intro slides, a login screen (sign in or continue as
+ * guest), then a 3-step quiz (stage + names, mood, content filter + 18+).
+ * Existing accounts with saved answers skip the quiz. `?step=quiz` starts at
+ * the quiz ("Redo the quiz" in Settings); `?step=signed-in` is where Google and
+ * email-link sign-ins come back to.
  */
 export function OnboardingFlow() {
   const router = useRouter();
-  const startAtQuiz = useQueryParam("step") === "quiz";
-  const [step, setStep] = useState<Step>(startAtQuiz ? "stage" : "intro1");
+  const param = useQueryParam("step");
+  const initial: Step = param === "quiz" ? "stage" : param === "signed-in" ? "signed-in" : "intro1";
+  const [step, setStep] = useState<Step>(initial);
   // On a full page load the param is only known after hydration.
   useEffect(() => {
-    if (startAtQuiz) setStep((s) => (s === "intro1" ? "stage" : s));
-  }, [startAtQuiz]);
+    if (initial !== "intro1") setStep((s) => (s === "intro1" ? initial : s));
+  }, [initial]);
   const [stage, setStage] = useState<RelationshipStage | null>(null);
   const [moods, setMoods] = useState<Mood[]>([]);
   const [partnerA, setPartnerA] = useState("");
@@ -66,10 +70,11 @@ export function OnboardingFlow() {
     });
   }, [step]);
 
-  async function finish(save: boolean) {
+  async function finish(save: boolean, account: "guest" | "new" | "existing" = "guest") {
     track("onboarding_completed", {
-      skipped: step !== "content",
+      skipped: step !== "content" && account !== "existing",
       step,
+      account,
       stage: save ? stage : null,
       moods: save ? moods : [],
       spicy: save && spicy && adult,
@@ -91,15 +96,37 @@ export function OnboardingFlow() {
     router.replace("/");
   }
 
+  const signedIn = useRef(false);
   /** Skip keeps whatever the user already answered. */
-  const skip = () => void finish(step !== "intro1" && step !== "intro2");
+  const skip = () => void finish(true, signedIn.current ? "new" : "guest");
 
-  if (step === "intro1") return <IntroOne onNext={() => setStep("intro2")} onSkip={skip} />;
-  if (step === "intro2") return <IntroTwo onNext={() => setStep("stage")} onSkip={skip} />;
+  // Stable callbacks for the signed-in check (it runs once).
+  const toHome = useCallback(() => {
+    track("onboarding_completed", { skipped: false, step: "signed-in", account: "existing" });
+    void updateSettings({ onboardingDone: true }).then(() => router.replace("/"));
+  }, [router]);
+  const toQuiz = useCallback(() => {
+    signedIn.current = true;
+    setStep("stage");
+  }, []);
+  const toLogin = useCallback(() => setStep("login"), []);
+
+  // Intro "Skip" goes to the login screen, which has its own guest button.
+  if (step === "intro1") return <IntroOne onNext={() => setStep("intro2")} onSkip={toLogin} />;
+  if (step === "intro2") return <IntroTwo onNext={toLogin} onSkip={toLogin} />;
+  if (step === "login")
+    return <LoginStep onBack={() => setStep("intro2")} onGuest={() => setStep("stage")} onSignedIn={() => setStep("signed-in")} />;
+  if (step === "signed-in") return <SignedInStep onExisting={toHome} onNew={toQuiz} onNotSignedIn={toLogin} />;
 
   const index = QUIZ.indexOf(step);
-  const back = () => setStep(index === 0 ? "intro2" : (QUIZ[index - 1] as Step));
-  const next = () => (index === QUIZ.length - 1 ? void finish(true) : setStep(QUIZ[index + 1] as Step));
+  const back = () => {
+    if (index > 0) return setStep(QUIZ[index - 1] as Step);
+    // "Redo the quiz" came from Us; otherwise go back to the login screen.
+    if (param === "quiz") router.replace("/us");
+    else setStep("login");
+  };
+  const next = () =>
+    index === QUIZ.length - 1 ? void finish(true, signedIn.current ? "new" : "guest") : setStep(QUIZ[index + 1] as Step);
   const canContinue = step !== "content" || !spicy || adult;
 
   return (

@@ -2,8 +2,9 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { sendEmailSignIn, signInWithGoogle, useAuth, verifyEmailCode } from "@/lib/supabase/auth";
+import { getAuthProviders } from "@/lib/supabase/client";
 import { Button, buttonVariants } from "@/components/ui/button";
 
 type Step = "start" | "code";
@@ -19,10 +20,18 @@ function GoogleMark() {
   );
 }
 
-/** Optional sign-in (ON-2): Google, or email with a link + one-time code. */
-export function SignInPanel({ next }: { next: string }) {
+/**
+ * Optional sign-in (ON-2): Google, or email with a link + one-time code.
+ * `onSignedIn` replaces the default "go to `next`" after a typed code; link and
+ * Google sign-ins always come back through /auth/callback to `next`.
+ */
+export function SignInPanel({ next, onSignedIn }: { next: string; onSignedIn?: () => void }) {
   const router = useRouter();
   const auth = useAuth();
+  const [google, setGoogle] = useState(false);
+  useEffect(() => {
+    void getAuthProviders().then((p) => setGoogle(p.google));
+  }, []);
   const [step, setStep] = useState<Step>("start");
   const [email, setEmail] = useState("");
   const [code, setCode] = useState("");
@@ -44,9 +53,15 @@ export function SignInPanel({ next }: { next: string }) {
           You&apos;re signed in as <strong className="font-semibold">{auth.email}</strong>. Your favorites and history sync
           automatically.
         </p>
-        <Link href={next} className={buttonVariants({ size: "lg" })}>
-          Continue
-        </Link>
+        {onSignedIn ? (
+          <Button size="lg" onClick={onSignedIn}>
+            Continue
+          </Button>
+        ) : (
+          <Link href={next} className={buttonVariants({ size: "lg" })}>
+            Continue
+          </Link>
+        )}
       </div>
     );
   }
@@ -80,7 +95,8 @@ export function SignInPanel({ next }: { next: string }) {
           e.preventDefault();
           void run(async () => {
             await verifyEmailCode(email.trim(), code.trim());
-            router.replace(next);
+            if (onSignedIn) onSignedIn();
+            else router.replace(next);
           });
         }}
       >
@@ -117,12 +133,16 @@ export function SignInPanel({ next }: { next: string }) {
 
   return (
     <div className="mt-6 flex flex-col gap-3">
-      <Button variant="light" size="lg" disabled={busy} onClick={() => void run(() => signInWithGoogle(next))}>
-        <GoogleMark /> Continue with Google
-      </Button>
-      <div className="my-1 flex items-center gap-3 text-sm text-muted" aria-hidden="true">
-        <span className="h-px grow bg-border" /> or <span className="h-px grow bg-border" />
-      </div>
+      {google && (
+        <>
+          <Button variant="light" size="lg" disabled={busy} onClick={() => void run(() => signInWithGoogle(next))}>
+            <GoogleMark /> Continue with Google
+          </Button>
+          <div className="my-1 flex items-center gap-3 text-sm text-muted" aria-hidden="true">
+            <span className="h-px grow bg-border" /> or <span className="h-px grow bg-border" />
+          </div>
+        </>
+      )}
       <form
         className="flex flex-col gap-3"
         onSubmit={(e) => {
@@ -146,7 +166,7 @@ export function SignInPanel({ next }: { next: string }) {
           />
         </label>
         <Button size="lg" type="submit" disabled={busy || !email.includes("@")}>
-          Email me a sign-in link
+          Continue with email
         </Button>
       </form>
       <p role="alert" className="min-h-5 text-center text-sm text-pink-soft">

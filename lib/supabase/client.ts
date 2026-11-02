@@ -46,3 +46,21 @@ export function getSupabase(): Promise<SupabaseClient> {
   );
   return client;
 }
+
+let providers: Promise<{ google: boolean }> | null = null;
+
+/**
+ * Which sign-in providers are switched on in Supabase, so the Google button
+ * only shows once Google is set up. A plain fetch: no Supabase client needed.
+ */
+export function getAuthProviders(): Promise<{ google: boolean }> {
+  if (!isSupabaseConfigured()) return Promise.resolve({ google: false });
+  providers ??= fetch(`${URL}/auth/v1/settings`, { headers: { apikey: ANON_KEY } })
+    .then((r) => (r.ok ? r.json() : null))
+    .then((s: { external?: { google?: boolean } } | null) => ({ google: Boolean(s?.external?.google) }))
+    .catch(() => {
+      providers = null; // try again next time (e.g. offline)
+      return { google: false };
+    });
+  return providers;
+}
