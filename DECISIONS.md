@@ -102,8 +102,9 @@ Newest at the bottom. "PRD" = couples-card-app-prd.md (v2).
 72. **Measured:**
     - Initial JS, gzipped: 185 KB (Home) to 214 KB (Play).
     - Swipes at a 4× slower CPU: 317 frames with a median and 95th percentile of 16.7 ms, and no frame over 20 ms. Only 11 layouts in 5 swipes, all at card changes.
-    - CLS is 0 everywhere except Us (0.03).
+    - CLS is 0 on every page (see 76).
     - The SEO score of 60 on Play, Saved, Us, Sign-in and Session is because these pages are deliberately `noindex`.
 73. **Content tests no longer require the `draft` tag** (removing it is how a card gets approved). The card-count test uses a synthetic deck, so editing real decks never breaks it.
 74. **`NEXT_PUBLIC_SITE_URL` falls back to Vercel's production domain** (`VERCEL_PROJECT_PRODUCTION_URL`) when it isn't set. Without this, share previews pointed at `localhost`.
 75. **The Supabase URL is normalised** (a pasted `…/rest/v1/` or trailing slash is stripped), in the client and in the delete-account route.
+76. **No layout jumps on Us.** The server now renders the signed-out Account section, instead of "sign-in isn't switched on". Space is also reserved for the names form, the "x of 10 decks" line and the offline hint. CLS on Us went from 0.03 locally (0.19 on a slow live load) to 0.

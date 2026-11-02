@@ -21,7 +21,7 @@ export function SettingsView() {
   return (
     <div className="mt-6 flex flex-col gap-7">
       <Section title="You two" id="names">
-        {loaded ? <Names initialA={settings.partnerA} initialB={settings.partnerB} /> : <div className="h-[76px]" />}
+        {loaded ? <Names initialA={settings.partnerA} initialB={settings.partnerB} /> : <div className="h-[105px]" />}
         <Link href="/welcome?step=quiz" className="mt-3 inline-flex min-h-11 items-center text-[15px]">
           Redo the quiz
         </Link>
@@ -331,12 +331,11 @@ function OfflineDownload() {
   return (
     <div className="flex flex-col gap-3">
       <p className="text-[15px] text-muted">
-        Decks you open are saved automatically. Downloading the rest uses well under 1 MB.{" "}
-        {count !== null && (
-          <>
-            {count} of {TOTAL_DECKS} decks are on this phone.
-          </>
-        )}
+        Decks you open are saved automatically. Downloading the rest uses well under 1 MB.
+      </p>
+      {/* Lines are reserved up front so nothing jumps when the counts arrive. */}
+      <p className="min-h-[22px] text-[15px] text-muted">
+        {count !== null ? `${count} of ${TOTAL_DECKS} decks are on this phone.` : "\u00a0"}
       </p>
       <Button
         variant="outline"
@@ -346,11 +345,8 @@ function OfflineDownload() {
       >
         {count === TOTAL_DECKS ? "All decks downloaded" : "Download all decks"}
       </Button>
-      {!supported && (
-        <p className="text-[13px] text-muted">Available once the app has finished setting up. Reload and try again.</p>
-      )}
-      <p role="status" aria-live="polite" className="min-h-5 text-sm text-pink-soft">
-        {progress}
+      <p role="status" aria-live="polite" className="min-h-10 text-sm text-pink-soft">
+        {progress || (!supported ? "Available once the app has finished setting up. Reload and try again." : "")}
       </p>
     </div>
   );

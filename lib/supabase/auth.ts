@@ -21,7 +21,8 @@ export interface AuthState {
   email: string | null;
 }
 
-const SERVER: AuthState = { configured: false, loading: false, email: null };
+// Server render and hydration assume the common case (signed out), so the page doesn't jump when it hydrates.
+const SERVER: AuthState = { configured: isSupabaseConfigured(), loading: false, email: null };
 let state: AuthState = SERVER;
 const listeners = new Set<() => void>();
 let started = false;

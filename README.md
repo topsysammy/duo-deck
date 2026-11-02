@@ -171,4 +171,5 @@ The latest audit (Phase 6, details in DECISIONS.md) checked:
 - Initial JS under 300 KB gzipped on every page (185–214 KB).
 - Swipes at 60 fps on a 4× slowed CPU, animating transform and opacity only.
 - No WCAG 2.1 AA violations found by axe on any page or open dialog.
-- Lighthouse mobile scores, and decks that play offline after being opened once.
+- Lighthouse mobile (simulated slow 4G): Accessibility 100 and Best Practices 100 everywhere. Performance is 93–100 on every page except Play (88–90 locally; 94–98 on Vercel when the connection was steady). See DECISIONS.md #70.
+- Decks play offline after being opened once: a cold reload with the network off resumes the same card.
