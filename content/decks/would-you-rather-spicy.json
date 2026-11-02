@@ -3,12 +3,12 @@
   "slug": "would-you-rather-spicy",
   "name": "Would You Rather: Spicy",
   "tagline": "Flirty choices, revealed together",
-  "description": "Pick in secret, reveal together, then talk about it. Suggestive, never explicit. 18+.",
+  "description": "Pick in secret, reveal together, then talk about it. Flirty choices first, real confessions later. 18+.",
   "category_id": "spicy",
   "mode": "would_you_rather",
   "is_spicy": true,
   "locale": "en",
-  "version": 2,
+  "version": 3,
   "levels": [
     {
       "id": 1,
@@ -18,302 +18,400 @@
   ],
   "cards": [
     {
-      "id": "would-you-rather-spicy-001",
+      "id": "would-you-rather-spicy-101",
       "deck_id": "would-you-rather-spicy",
       "level": 1,
       "type": "would_you_rather",
-      "text": "A slow kiss in the rain or a surprise kiss in the kitchen?",
-      "option_a": "Slow kiss in the rain",
-      "option_b": "Surprise kiss in the kitchen",
-      "tags": [
-        "draft"
-      ],
-      "spice_level": 1,
-      "locale": "en",
-      "version": 1
-    },
-    {
-      "id": "would-you-rather-spicy-002",
-      "deck_id": "would-you-rather-spicy",
-      "level": 1,
-      "type": "would_you_rather",
-      "text": "A candlelit bath for two or a slow dance in the living room?",
-      "option_a": "Candlelit bath",
-      "option_b": "Slow dance",
-      "tags": [
-        "draft"
-      ],
-      "spice_level": 1,
-      "locale": "en",
-      "version": 1
-    },
-    {
-      "id": "would-you-rather-spicy-003",
-      "deck_id": "would-you-rather-spicy",
-      "level": 1,
-      "type": "would_you_rather",
-      "text": "A flirty voice note or a cheeky handwritten note?",
-      "option_a": "Flirty voice note",
-      "option_b": "Cheeky handwritten note",
-      "tags": [
-        "draft"
-      ],
-      "spice_level": 1,
-      "locale": "en",
-      "version": 1
-    },
-    {
-      "id": "would-you-rather-spicy-004",
-      "deck_id": "would-you-rather-spicy",
-      "level": 1,
-      "type": "would_you_rather",
-      "text": "A cabin with no signal or a hotel with room service?",
-      "option_a": "Cabin, no signal",
-      "option_b": "Hotel, room service",
-      "tags": [
-        "draft"
-      ],
+      "text": "Would you rather have me send you a shirtless/naughty picture or surprise you with one in person?",
+      "option_a": "Send me a picture",
+      "option_b": "Surprise me in person",
+      "tags": [],
       "spice_level": 2,
       "locale": "en",
       "version": 1
     },
     {
-      "id": "would-you-rather-spicy-005",
+      "id": "would-you-rather-spicy-102",
       "deck_id": "would-you-rather-spicy",
       "level": 1,
       "type": "would_you_rather",
-      "text": "Teasing texts all day or a surprise when you get home?",
-      "option_a": "Teasing texts all day",
-      "option_b": "Surprise at home",
-      "tags": [
-        "draft"
-      ],
+      "text": "Would you rather I kiss you against a wall or pull you close while we're sitting together?",
+      "option_a": "Against a wall",
+      "option_b": "Pulled close, sitting",
+      "tags": [],
       "spice_level": 2,
       "locale": "en",
       "version": 1
     },
     {
-      "id": "would-you-rather-spicy-006",
+      "id": "would-you-rather-spicy-103",
       "deck_id": "would-you-rather-spicy",
       "level": 1,
       "type": "would_you_rather",
-      "text": "A back massage or a foot massage?",
-      "option_a": "Back massage",
-      "option_b": "Foot massage",
-      "tags": [
-        "draft"
-      ],
-      "spice_level": 1,
-      "locale": "en",
-      "version": 1
-    },
-    {
-      "id": "would-you-rather-spicy-007",
-      "deck_id": "would-you-rather-spicy",
-      "level": 1,
-      "type": "would_you_rather",
-      "text": "Choose my outfit for a date or let me choose yours?",
-      "option_a": "I choose yours",
-      "option_b": "You choose mine",
-      "tags": [
-        "draft"
-      ],
-      "spice_level": 1,
-      "locale": "en",
-      "version": 1
-    },
-    {
-      "id": "would-you-rather-spicy-008",
-      "deck_id": "would-you-rather-spicy",
-      "level": 1,
-      "type": "would_you_rather",
-      "text": "Playful and giggly or slow and intense?",
-      "option_a": "Playful and giggly",
-      "option_b": "Slow and intense",
-      "tags": [
-        "draft"
-      ],
+      "text": "Would you rather I flirt with you while you're trying to concentrate or whisper something naughty when you least expect it?",
+      "option_a": "Flirt while I concentrate",
+      "option_b": "A surprise naughty whisper",
+      "tags": [],
       "spice_level": 2,
       "locale": "en",
       "version": 1
     },
     {
-      "id": "would-you-rather-spicy-009",
+      "id": "would-you-rather-spicy-104",
       "deck_id": "would-you-rather-spicy",
       "level": 1,
       "type": "would_you_rather",
-      "text": "Breakfast in bed or a lazy morning of cuddles?",
-      "option_a": "Breakfast in bed",
-      "option_b": "Lazy morning cuddles",
-      "tags": [
-        "draft"
-      ],
-      "spice_level": 1,
-      "locale": "en",
-      "version": 1
-    },
-    {
-      "id": "would-you-rather-spicy-010",
-      "deck_id": "would-you-rather-spicy",
-      "level": 1,
-      "type": "would_you_rather",
-      "text": "Dinner and dancing or a movie under one blanket?",
-      "option_a": "Dinner and dancing",
-      "option_b": "Movie under one blanket",
-      "tags": [
-        "draft"
-      ],
-      "spice_level": 1,
-      "locale": "en",
-      "version": 1
-    },
-    {
-      "id": "would-you-rather-spicy-011",
-      "deck_id": "would-you-rather-spicy",
-      "level": 1,
-      "type": "would_you_rather",
-      "text": "Make the first move or wait for me to make it?",
-      "option_a": "Make the first move",
-      "option_b": "Wait for you",
-      "tags": [
-        "draft"
-      ],
+      "text": "Would you rather spend the entire night in bed with me or share a shower with me?",
+      "option_a": "All night in bed",
+      "option_b": "A shower together",
+      "tags": [],
       "spice_level": 2,
       "locale": "en",
       "version": 1
     },
     {
-      "id": "would-you-rather-spicy-012",
+      "id": "would-you-rather-spicy-105",
       "deck_id": "would-you-rather-spicy",
       "level": 1,
       "type": "would_you_rather",
-      "text": "Our song on repeat or total quiet, just us?",
-      "option_a": "Our song on repeat",
-      "option_b": "Total quiet",
-      "tags": [
-        "draft"
-      ],
-      "spice_level": 1,
-      "locale": "en",
-      "version": 1
-    },
-    {
-      "id": "would-you-rather-spicy-013",
-      "deck_id": "would-you-rather-spicy",
-      "level": 1,
-      "type": "would_you_rather",
-      "text": "A long hug from behind or a kiss on the forehead?",
-      "option_a": "Hug from behind",
-      "option_b": "Forehead kiss",
-      "tags": [
-        "draft"
-      ],
-      "spice_level": 1,
-      "locale": "en",
-      "version": 1
-    },
-    {
-      "id": "would-you-rather-spicy-014",
-      "deck_id": "would-you-rather-spicy",
-      "level": 1,
-      "type": "would_you_rather",
-      "text": "Fresh cologne or the smell of coconut body butter?",
-      "option_a": "Fresh cologne",
-      "option_b": "Coconut body butter",
-      "tags": [
-        "draft"
-      ],
-      "spice_level": 1,
-      "locale": "en",
-      "version": 1
-    },
-    {
-      "id": "would-you-rather-spicy-015",
-      "deck_id": "would-you-rather-spicy",
-      "level": 1,
-      "type": "would_you_rather",
-      "text": "Dress up for a date at home or stay in pyjamas together all night?",
-      "option_a": "Dress up at home",
-      "option_b": "Pyjamas all night",
-      "tags": [
-        "draft"
-      ],
+      "text": "Would you rather be the better kisser or the more seductive one in our relationship?",
+      "option_a": "The better kisser",
+      "option_b": "The more seductive one",
+      "tags": [],
       "spice_level": 2,
       "locale": "en",
       "version": 1
     },
     {
-      "id": "would-you-rather-spicy-016",
+      "id": "would-you-rather-spicy-106",
       "deck_id": "would-you-rather-spicy",
       "level": 1,
       "type": "would_you_rather",
-      "text": "A slow massage or a long kiss goodnight?",
-      "option_a": "Slow massage",
-      "option_b": "Long kiss goodnight",
-      "tags": [
-        "draft"
-      ],
-      "spice_level": 1,
-      "locale": "en",
-      "version": 1
-    },
-    {
-      "id": "would-you-rather-spicy-017",
-      "deck_id": "would-you-rather-spicy",
-      "level": 1,
-      "type": "would_you_rather",
-      "text": "Candles and silk sheets or a fireplace and a blanket?",
-      "option_a": "Candles and silk sheets",
-      "option_b": "Fireplace and a blanket",
-      "tags": [
-        "draft"
-      ],
+      "text": "Would you rather I compliment your body in public or whisper something naughty in your ear in private?",
+      "option_a": "Compliment me in public",
+      "option_b": "Whisper to me in private",
+      "tags": [],
       "spice_level": 2,
       "locale": "en",
       "version": 1
     },
     {
-      "id": "would-you-rather-spicy-018",
+      "id": "would-you-rather-spicy-107",
       "deck_id": "would-you-rather-spicy",
       "level": 1,
       "type": "would_you_rather",
-      "text": "Hold hands in public or sneak a kiss in public?",
-      "option_a": "Hold hands",
-      "option_b": "Sneak a kiss",
-      "tags": [
-        "draft"
-      ],
-      "spice_level": 1,
-      "locale": "en",
-      "version": 1
-    },
-    {
-      "id": "would-you-rather-spicy-019",
-      "deck_id": "would-you-rather-spicy",
-      "level": 1,
-      "type": "would_you_rather",
-      "text": "Matching outfits or matching pyjamas?",
-      "option_a": "Matching outfits",
-      "option_b": "Matching pyjamas",
-      "tags": [
-        "draft"
-      ],
-      "spice_level": 1,
-      "locale": "en",
-      "version": 1
-    },
-    {
-      "id": "would-you-rather-spicy-020",
-      "deck_id": "would-you-rather-spicy",
-      "level": 1,
-      "type": "would_you_rather",
-      "text": "A late-night drive or a midnight swim together?",
-      "option_a": "Late-night drive",
-      "option_b": "Midnight swim",
-      "tags": [
-        "draft"
-      ],
+      "text": "Would you rather I know all your sexual fantasies or all your past romantic secrets?",
+      "option_a": "My sexual fantasies",
+      "option_b": "My romantic secrets",
+      "tags": [],
       "spice_level": 2,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-108",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Would you rather I kiss you while you're talking or pull you closer without saying a word?",
+      "option_a": "Kiss me mid-sentence",
+      "option_b": "Pull me close, no words",
+      "tags": [],
+      "spice_level": 2,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-109",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Would you rather spend an entire weekend in bed cuddling with me or have a whole night dedicated to exploring each other's desires?",
+      "option_a": "A weekend of cuddles",
+      "option_b": "A night of exploring",
+      "tags": [],
+      "spice_level": 2,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-110",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Would you rather I tell you my secret fantasies or show you my intimate bucket list?",
+      "option_a": "Hear your fantasies",
+      "option_b": "See your bucket list",
+      "tags": [],
+      "spice_level": 2,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-111",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Would you rather I kiss you somewhere unexpected or whisper exactly where I want to kiss you?",
+      "option_a": "Kiss me somewhere unexpected",
+      "option_b": "Tell me where first",
+      "tags": [],
+      "spice_level": 2,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-112",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Would you rather enjoy being watched by me or enjoy watching me?",
+      "option_a": "Being watched",
+      "option_b": "Watching you",
+      "tags": [],
+      "spice_level": 2,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-113",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Would you rather tell me the last time you fantasized about me or the last naughty thought you had about us?",
+      "option_a": "Last time I fantasized",
+      "option_b": "My last naughty thought",
+      "tags": [],
+      "spice_level": 2,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-114",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Would you rather I initiate intimacy every time or have you make the first move?",
+      "option_a": "You always initiate",
+      "option_b": "I make the first move",
+      "tags": [],
+      "spice_level": 2,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-115",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Would you rather I describe your body in detail or tell you exactly what I find irresistible about you?",
+      "option_a": "Describe my body",
+      "option_b": "What you find irresistible",
+      "tags": [],
+      "spice_level": 2,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-116",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Would you rather know who I've felt the strongest sexual attraction to before you or who I've had the deepest emotional connection with?",
+      "option_a": "Strongest attraction",
+      "option_b": "Deepest connection",
+      "tags": [],
+      "spice_level": 3,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-117",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Would you rather I ask you anything about your sexual history or anything about your fantasies?",
+      "option_a": "My sexual history",
+      "option_b": "My fantasies",
+      "tags": [],
+      "spice_level": 3,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-118",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Would you rather tell me your exact body count or your most embarrassing intimate experience?",
+      "option_a": "My body count",
+      "option_b": "Most embarrassing moment",
+      "tags": [],
+      "spice_level": 3,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-119",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Would you rather admit you've ever been attracted to someone else while dating me or reveal whether you've ever compared me to an ex?",
+      "option_a": "Attracted to someone else",
+      "option_b": "Compared you to an ex",
+      "tags": [],
+      "spice_level": 3,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-120",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Would you rather I discover your private adult-content collection or your hidden romantic messages?",
+      "option_a": "My adult-content collection",
+      "option_b": "My hidden romantic messages",
+      "tags": [],
+      "spice_level": 3,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-121",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Would you rather tell me your biggest bedroom insecurity or your most unusual fantasy?",
+      "option_a": "My bedroom insecurity",
+      "option_b": "My most unusual fantasy",
+      "tags": [],
+      "spice_level": 3,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-122",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Would you rather reveal the wildest place you've imagined us being intimate or the most unexpected moment you've fantasized about me?",
+      "option_a": "The wildest place",
+      "option_b": "The most unexpected moment",
+      "tags": [
+        "adapted"
+      ],
+      "spice_level": 3,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-123",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Would you rather let me read your search history from the past month or hear your entire dating history?",
+      "option_a": "My search history",
+      "option_b": "My dating history",
+      "tags": [],
+      "spice_level": 3,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-124",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Would you rather admit you've ever faked being satisfied with me or tell me something you wish I did differently in bed?",
+      "option_a": "Whether I've faked it",
+      "option_b": "What I'd change in bed",
+      "tags": [],
+      "spice_level": 3,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-125",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Would you rather spend a night answering every question about your sex life or let me ask you five questions you cannot dodge?",
+      "option_a": "Every question, all night",
+      "option_b": "Five questions, no dodging",
+      "tags": [],
+      "spice_level": 3,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-126",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Would you rather tell me if you've fantasized about someone we both know or who you'd secretly date if we weren't together?",
+      "option_a": "Someone we both know",
+      "option_b": "Who I'd secretly date",
+      "tags": [
+        "adapted"
+      ],
+      "spice_level": 3,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-127",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Would you rather confess you've ever had a secret intimate relationship before me or reveal whether you've ever been someone's secret?",
+      "option_a": "A secret relationship",
+      "option_b": "Being someone's secret",
+      "tags": [],
+      "spice_level": 3,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-128",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Would you rather tell me something you've never enjoyed in bed or something you've always wanted us to try?",
+      "option_a": "Something I never enjoyed",
+      "option_b": "Something I want us to try",
+      "tags": [],
+      "spice_level": 3,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-129",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Would you rather admit you've thought about being intimate with an ex again or whether you've compared our intimacy to a past relationship?",
+      "option_a": "Thoughts about an ex",
+      "option_b": "Comparing our intimacy",
+      "tags": [
+        "adapted"
+      ],
+      "spice_level": 3,
+      "locale": "en",
+      "version": 1
+    },
+    {
+      "id": "would-you-rather-spicy-130",
+      "deck_id": "would-you-rather-spicy",
+      "level": 1,
+      "type": "would_you_rather",
+      "text": "Would you rather tell me the one thing you'd be most nervous to try with me or the one thing you'd secretly love us to experience together?",
+      "option_a": "Most nervous to try",
+      "option_b": "Secretly love to try",
+      "tags": [
+        "adapted"
+      ],
+      "spice_level": 3,
       "locale": "en",
       "version": 1
     }
