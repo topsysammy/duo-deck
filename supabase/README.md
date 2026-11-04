@@ -8,14 +8,22 @@ The app works fully without Supabase; sign-in simply stays hidden until these st
    - Site URL: your production URL, e.g. `https://duodeck.app`
    - Redirect URLs: `https://duodeck.app/auth/callback`, `http://localhost:3000/auth/callback`, and your Vercel preview pattern (e.g. `https://*-yourteam.vercel.app/auth/callback`).
 4. **Auth → Providers**
-   - Email: on. Keep "Confirm email" on.
+   - Email: on. Keep "Confirm email" on. Set **Minimum password length** to 8 (the app asks for 8).
    - Google: on. Create an OAuth client in Google Cloud Console (type "Web application"), add `https://<project-ref>.supabase.co/auth/v1/callback` as an authorised redirect URI, and paste the client ID and secret into Supabase.
-5. **Auth → Email templates → "Magic Link" AND "Confirm signup":** a first-time user gets "Confirm signup", a returning one gets "Magic Link", so put the one-time code in both. People on iPhone (where the installed app and Safari don't share storage) need to type it:
-   ```html
-   <h2>Your Duo Deck sign-in</h2>
-   <p><a href="{{ .ConfirmationURL }}">Tap to sign in</a></p>
-   <p>Or type this code in the app: <strong>{{ .Token }}</strong></p>
-   ```
+5. **Auth → Email templates.** Sign-in uses email + password. Two emails carry a 6-digit code, which people on iPhone need to type (the installed app and Safari don't share storage, so a link from Mail can't finish inside the app):
+   - **"Confirm signup"** (sent when someone creates an account):
+     ```html
+     <h2>Confirm your Duo Deck account</h2>
+     <p><a href="{{ .ConfirmationURL }}">Tap to confirm</a></p>
+     <p>Or type this code in the app: <strong>{{ .Token }}</strong></p>
+     ```
+   - **"Reset password"** (sent by "Forgot password?"):
+     ```html
+     <h2>Reset your Duo Deck password</h2>
+     <p><a href="{{ .ConfirmationURL }}">Tap to set a new password</a></p>
+     <p>Or type this code in the app: <strong>{{ .Token }}</strong></p>
+     ```
+   "Magic Link" is no longer used by the app.
    Supabase's built-in email sender only allows a few emails per hour and is meant for testing. Before launch, add your own SMTP provider (Resend, Brevo, Postmark…) under Auth → Emails → SMTP settings.
 6. **Keys → `.env.local` and Vercel project settings:**
    - `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY` (public; RLS protects data)

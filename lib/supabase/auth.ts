@@ -10,7 +10,7 @@ import { deleteLocalData } from "@/lib/db/settings";
 const RETURN_TO = "dd-signin-return";
 const METHOD = "dd-signin-method";
 
-export type SignInMethod = "google" | "email_link" | "email_code";
+export type SignInMethod = "google" | "email_link" | "email_code" | "password" | "signup" | "recovery";
 
 // ---------- auth state store ----------
 
@@ -108,26 +108,78 @@ export async function signInWithGoogle(returnTo: string) {
   if (error) throw error;
 }
 
-/**
- * Sends a sign-in email with both a link and a one-time code. The code matters
- * on iPhone: an installed app and Safari don't share storage, so a link opened
- * from Mail can't finish sign-in inside the app, but a typed code can.
- */
-export async function sendEmailSignIn(email: string, returnTo: string) {
-  rememberReturn(returnTo, "email_link");
+// ---------- email + password ----------
+// Every email Supabase sends (confirm sign-up, reset password) carries a link AND
+// a 6-digit code ({{ .Token }} in the template). The code matters on iPhone: an
+// installed app and Safari don't share storage, so a link opened from Mail
+// can't finish inside the app, but a typed code can.
+
+export async function signInWithPassword(email: string, password: string) {
   const sb = await getSupabase();
-  const { error } = await sb.auth.signInWithOtp({
+  const { error } = await sb.auth.signInWithPassword({ email, password });
+  if (error) throw error;
+  await afterSignIn("password");
+}
+
+/**
+ * Creates an account. Returns "signed-in" when Supabase doesn't require email
+ * confirmation, or "confirm" when a code/link was emailed first.
+ */
+export async function signUpWithPassword(name: string, email: string, password: string, returnTo: string) {
+  rememberReturn(returnTo, "signup");
+  const sb = await getSupabase();
+  const { data, error } = await sb.auth.signUp({
     email,
-    options: { emailRedirectTo: callbackUrl(), shouldCreateUser: true },
+    password,
+    options: { emailRedirectTo: callbackUrl(), data: { full_name: name } },
   });
+  if (error) throw error;
+  // Supabase hides whether an email is taken: an existing address comes back with no identities.
+  if (data.user && data.user.identities?.length === 0) throw new Error("User already registered");
+  if (data.session) {
+    await afterSignIn("signup");
+    return "signed-in" as const;
+  }
+  return "confirm" as const;
+}
+
+/** Finishes sign-up with the 6-digit code from the "Confirm signup" email. */
+export async function confirmSignUpCode(email: string, code: string) {
+  const sb = await getSupabase();
+  const { error } = await sb.auth.verifyOtp({ email, token: code, type: "signup" });
+  if (error) throw error;
+  await afterSignIn("signup");
+}
+
+export async function resendSignUpCode(email: string) {
+  const sb = await getSupabase();
+  const { error } = await sb.auth.resend({ type: "signup", email, options: { emailRedirectTo: callbackUrl() } });
   if (error) throw error;
 }
 
-export async function verifyEmailCode(email: string, code: string) {
+/** Sends the "Reset password" email (link + 6-digit code). */
+export async function sendPasswordReset(email: string) {
+  rememberReturn("/reset-password", "recovery");
   const sb = await getSupabase();
-  const { error } = await sb.auth.verifyOtp({ email, token: code, type: "email" });
+  const { error } = await sb.auth.resetPasswordForEmail(email, { redirectTo: callbackUrl() });
   if (error) throw error;
-  await afterSignIn("email_code");
+}
+
+/** Signs in with the reset code, then sets the new password. */
+export async function resetPasswordWithCode(email: string, code: string, password: string) {
+  const sb = await getSupabase();
+  const { error } = await sb.auth.verifyOtp({ email, token: code, type: "recovery" });
+  if (error) throw error;
+  const { error: updateError } = await sb.auth.updateUser({ password });
+  if (updateError) throw updateError;
+  await afterSignIn("recovery");
+}
+
+/** Sets a new password for the signed-in user (after a reset link). */
+export async function updatePassword(password: string) {
+  const sb = await getSupabase();
+  const { error } = await sb.auth.updateUser({ password });
+  if (error) throw error;
 }
 
 /** Common tail of every sign-in: remember the device, merge guest data (ON-4), record the event. */

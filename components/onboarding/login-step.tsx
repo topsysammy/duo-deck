@@ -27,21 +27,17 @@ export function LoginStep({ onBack, onGuest, onSignedIn }: { onBack: () => void;
         <span className="size-11" aria-hidden="true" />
       </div>
 
-      <div className="mt-8 flex flex-col gap-3">
-        <Pill tone="orange" rotate={-5} className="self-start">
-          Welcome
-        </Pill>
-        <h1 className="font-display text-[38px] leading-[1.04] font-normal tracking-[-0.5px]">
-          {configured ? "Sign in or play as a guest" : "Ready to play?"}
-        </h1>
-        <p className="text-base leading-[1.4] text-muted">
-          {configured
-            ? "With an account, your favorites, history and settings follow you to any phone."
-            : "Everything is saved on this phone. No account needed."}
-        </p>
-      </div>
-
-      {configured && <SignInPanel next={ONBOARDING_SIGNED_IN} onSignedIn={onSignedIn} />}
+      {configured ? (
+        <SignInPanel next={ONBOARDING_SIGNED_IN} onSignedIn={onSignedIn} initialMode="signup" />
+      ) : (
+        <div className="mt-8 flex flex-col gap-3">
+          <Pill tone="orange" rotate={-5} className="self-start">
+            Welcome
+          </Pill>
+          <h1 className="font-display text-[38px] leading-[1.04] font-normal tracking-[-0.5px]">Ready to play?</h1>
+          <p className="text-base leading-[1.4] text-muted">Everything is saved on this phone. No account needed.</p>
+        </div>
+      )}
 
       <div className="mt-auto flex flex-col gap-2 pt-6">
         {configured && (
@@ -60,10 +56,11 @@ export function LoginStep({ onBack, onGuest, onSignedIn }: { onBack: () => void;
   );
 }
 
-/** True when the synced account already has quiz answers, so the quiz can be skipped. */
+/** True when the synced account already answered the quiz (stage or mood), so it can be skipped. */
+// Names alone don't count: a brand-new account has the name typed at sign-up.
 async function accountHasAnswers(): Promise<boolean> {
   const s = await getSettings();
-  return Boolean(s.stage || s.partnerA || s.partnerB || s.moods.length);
+  return Boolean(s.stage || s.moods.length);
 }
 
 /**

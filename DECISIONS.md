@@ -121,3 +121,16 @@ Newest at the bottom. "PRD" = couples-card-app-prd.md (v2).
     - **Wording:** the email button now says "Continue with email".
     - **Analytics:** `onboarding_completed` now carries `account`: `guest`, `new` or `existing`.
     - **Tested** against the real Supabase project with throwaway accounts (deleted afterwards): an existing account went straight to Home ("Hey Ada & Chidi"), and a new account got the quiz.
+81. **Email + password sign-in, restyled after the owner's reference site** (owner, 4 Nov 2026). This replaces the emailed-code-only sign-in.
+    - **Layout** follows the reference, in Duo Deck's dark colours: a bordered card with the title, "Continue with Google" (only when Google is on), an "or with email" divider, labels above 12 px-rounded fields, a password field with a show/hide eye, "Forgot password?", a full-width button, and "New here? Create an account" / "Already have an account? Sign in" links.
+    - **Create account** asks for name, email and password (at least 8 characters). No phone number. The name fills in the "You" name.
+    - **Onboarding** opens on Create account. The quiz is skipped only for accounts that already have a stage or mood saved; a name alone doesn't count.
+    - **Email confirmation stays on.** After Create account, the person types the 6-digit code from the "Confirm signup" email, or taps its link. Signing in to an unconfirmed account sends a new code.
+    - **Forgot password** emails a code. The person types it with a new password, and it's done in the app. The email's link goes to `/reset-password` instead.
+    - Accounts created with the old email code have no password; they use "Forgot password?" once.
+    - **Tested** against the real Supabase project with throwaway accounts, without sending any emails:
+      - Create account → confirm with code → quiz (name prefilled).
+      - A wrong password shows "Wrong email or password."
+      - An existing account → Home.
+      - Reset password → Home, and the new password works.
+      - axe found no issues on any auth screen.
